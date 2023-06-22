@@ -36,7 +36,7 @@ namespace Campeonato_das_Tabuadas
             cbbTabuada = new System.Windows.Forms.ComboBox();
             pSide = new System.Windows.Forms.Panel();
             tlpConfig = new System.Windows.Forms.TableLayoutPanel();
-            panel1 = new System.Windows.Forms.Panel();
+            pConfig = new System.Windows.Forms.Panel();
             lblMin = new System.Windows.Forms.Label();
             nudMin = new System.Windows.Forms.NumericUpDown();
             pbNTabuada = new System.Windows.Forms.PictureBox();
@@ -82,7 +82,7 @@ namespace Campeonato_das_Tabuadas
             tTime = new System.Windows.Forms.Timer(components);
             pSide.SuspendLayout();
             tlpConfig.SuspendLayout();
-            panel1.SuspendLayout();
+            pConfig.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)nudMin).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pbNTabuada).BeginInit();
             ((System.ComponentModel.ISupportInitialize)nudQtd).BeginInit();
@@ -129,7 +129,7 @@ namespace Campeonato_das_Tabuadas
             tlpConfig.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
             tlpConfig.ColumnCount = 1;
             tlpConfig.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            tlpConfig.Controls.Add(panel1, 0, 0);
+            tlpConfig.Controls.Add(pConfig, 0, 0);
             tlpConfig.Location = new System.Drawing.Point(12, 59);
             tlpConfig.Name = "tlpConfig";
             tlpConfig.RowCount = 1;
@@ -137,26 +137,26 @@ namespace Campeonato_das_Tabuadas
             tlpConfig.Size = new System.Drawing.Size(224, 343);
             tlpConfig.TabIndex = 13;
             // 
-            // panel1
+            // pConfig
             // 
-            panel1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            panel1.Controls.Add(lblMin);
-            panel1.Controls.Add(nudMin);
-            panel1.Controls.Add(pbNTabuada);
-            panel1.Controls.Add(cbShuffle);
-            panel1.Controls.Add(cbbTabuada);
-            panel1.Controls.Add(lblTabuada);
-            panel1.Controls.Add(tbTabuada);
-            panel1.Controls.Add(cbComutative);
-            panel1.Controls.Add(nudQtd);
-            panel1.Controls.Add(lblMax);
-            panel1.Controls.Add(nudMax);
-            panel1.Controls.Add(lblQtd);
-            panel1.Controls.Add(btnStart);
-            panel1.Location = new System.Drawing.Point(3, 16);
-            panel1.Name = "panel1";
-            panel1.Size = new System.Drawing.Size(218, 310);
-            panel1.TabIndex = 12;
+            pConfig.Anchor = System.Windows.Forms.AnchorStyles.None;
+            pConfig.Controls.Add(lblMin);
+            pConfig.Controls.Add(nudMin);
+            pConfig.Controls.Add(pbNTabuada);
+            pConfig.Controls.Add(cbShuffle);
+            pConfig.Controls.Add(cbbTabuada);
+            pConfig.Controls.Add(lblTabuada);
+            pConfig.Controls.Add(tbTabuada);
+            pConfig.Controls.Add(cbComutative);
+            pConfig.Controls.Add(nudQtd);
+            pConfig.Controls.Add(lblMax);
+            pConfig.Controls.Add(nudMax);
+            pConfig.Controls.Add(lblQtd);
+            pConfig.Controls.Add(btnStart);
+            pConfig.Location = new System.Drawing.Point(3, 16);
+            pConfig.Name = "pConfig";
+            pConfig.Size = new System.Drawing.Size(218, 310);
+            pConfig.TabIndex = 12;
             // 
             // lblMin
             // 
@@ -703,8 +703,8 @@ namespace Campeonato_das_Tabuadas
             Load += Dashboard_Load;
             pSide.ResumeLayout(false);
             tlpConfig.ResumeLayout(false);
-            panel1.ResumeLayout(false);
-            panel1.PerformLayout();
+            pConfig.ResumeLayout(false);
+            pConfig.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)nudMin).EndInit();
             ((System.ComponentModel.ISupportInitialize)pbNTabuada).EndInit();
             ((System.ComponentModel.ISupportInitialize)nudQtd).EndInit();
@@ -732,7 +732,6 @@ namespace Campeonato_das_Tabuadas
         private System.Windows.Forms.ComboBox cbbTabuada;
         private System.Windows.Forms.Panel pSide;
         private System.Windows.Forms.Label lblTabuada;
-        private System.Windows.Forms.PictureBox pbBack;
         private System.Windows.Forms.CheckBox cbShuffle;
         private System.Windows.Forms.PictureBox pbNTabuada;
         private System.Windows.Forms.NumericUpDown nudMax;
@@ -773,7 +772,7 @@ namespace Campeonato_das_Tabuadas
         private System.Windows.Forms.Panel pCounters;
         private System.Windows.Forms.TableLayoutPanel tlpSetup;
         private System.Windows.Forms.Label lblAwardsCnt;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel pConfig;
         private System.Windows.Forms.TableLayoutPanel tlpConfig;
         private System.Windows.Forms.Label lblMin;
         private System.Windows.Forms.NumericUpDown nudMin;

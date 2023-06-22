@@ -60,7 +60,7 @@ namespace Campeonato_das_Tabuadas
                 e.Cancel = true;
 
                 DialogResult closeWarn = MessageBox.Show("Tem a certeza que quer terminar o jogo atual? As respostas certas e erradas não serão contabilizadas.", Application.ProductName, MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
-                
+
                 if (closeWarn == DialogResult.Yes)
                     EndGame();
                 else

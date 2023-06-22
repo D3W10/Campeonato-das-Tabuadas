@@ -54,7 +54,7 @@ Caso queira compilar a aplicação no seu dispositivo, siga os passos abaixo par
 
 ### Pré-requisitos
 
-Para executar a aplicação no seu dispositivo, precisará das seguintes ferramentas:
+Para executar a aplicação, precisará das seguintes ferramentas:
 - C# 11.0
 - .NET Core 7
 - git (*opcional*)
@@ -68,7 +68,7 @@ Para executar a aplicação no seu dispositivo, precisará das seguintes ferrame
     git clone https://github.com/D3W10/Campeonato-das-Tabuadas.git
     ```
 2. Abrir a solução no Visual Studio usando o ficheiro `.sln`
-3. Compile e execute precionando `F5`
+3. Compile e execute pressionando `F5`
 
 <br />
 <br />

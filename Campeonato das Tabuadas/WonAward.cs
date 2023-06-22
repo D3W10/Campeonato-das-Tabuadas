@@ -2,7 +2,7 @@
 using System.Drawing;
 using System.Windows.Forms;
 
-namespace O_Campeonato_das_Tabuadas
+namespace Campeonato_das_Tabuadas
 {
     public partial class WonAward : Form
     {

@@ -1,7 +1,8 @@
 ﻿using System;
+using System.Drawing;
 using System.Windows.Forms;
 
-namespace O_Campeonato_das_Tabuadas
+namespace Campeonato_das_Tabuadas
 {
     public partial class Welcome : Form
     {
@@ -10,6 +11,10 @@ namespace O_Campeonato_das_Tabuadas
         public Welcome()
         {
             InitializeComponent();
+
+            tcPages.Appearance = TabAppearance.FlatButtons;
+            tcPages.ItemSize = new Size(0, 1);
+            tcPages.SizeMode = TabSizeMode.Fixed;
         }
 
         private void btnAprendiz_Click(object sender, EventArgs e)
@@ -20,13 +25,13 @@ namespace O_Campeonato_das_Tabuadas
 
         private void btnMestre_Click(object sender, EventArgs e)
         {
-            pWelcome.Visible = false;
+            tcPages.SelectedIndex = 1;
             tbPassword.Focus();
         }
 
-        private void pbBack_Click(object sender, EventArgs e)
+        private void btnBack_Click(object sender, EventArgs e)
         {
-            pWelcome.Visible = true;
+            tcPages.SelectedIndex = 0;
             btnAprendiz.Focus();
         }
 
@@ -49,7 +54,7 @@ namespace O_Campeonato_das_Tabuadas
                 Close();
             }
             else
-                MessageBox.Show("A palavra-passe inserida está incorreta!", "O Campeonato das Tabuadas", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("A palavra-passe inserida está incorreta!", Application.ProductName, MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
     }
 }

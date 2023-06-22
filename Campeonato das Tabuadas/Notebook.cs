@@ -1,14 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace O_Campeonato_das_Tabuadas
+namespace Campeonato_das_Tabuadas
 {
     public partial class Notebook : Form
     {
@@ -27,7 +20,6 @@ namespace O_Campeonato_das_Tabuadas
         {
             int tab = tbTab.Text.Length == 0 ? 1 : Convert.ToInt32(tbTab.Text);
 
-            lblTab0.Text = tab + " × 0 = " + (tab * 0);
             lblTab1.Text = tab + " × 1 = " + (tab * 1);
             lblTab2.Text = tab + " × 2 = " + (tab * 2);
             lblTab3.Text = tab + " × 3 = " + (tab * 3);
@@ -37,6 +29,9 @@ namespace O_Campeonato_das_Tabuadas
             lblTab7.Text = tab + " × 7 = " + (tab * 7);
             lblTab8.Text = tab + " × 8 = " + (tab * 8);
             lblTab9.Text = tab + " × 9 = " + (tab * 9);
+            lblTab10.Text = tab + " × 10 = " + (tab * 10);
+            lblTab11.Text = tab + " × 11 = " + (tab * 11);
+            lblTab12.Text = tab + " × 12 = " + (tab * 12);
         }
     }
 }

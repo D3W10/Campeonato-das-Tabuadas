@@ -1,10 +1,7 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace O_Campeonato_das_Tabuadas
+namespace Campeonato_das_Tabuadas
 {
     static class Program
     {

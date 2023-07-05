@@ -14,12 +14,12 @@
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
   <PropertyGroup>
-    <VersionPrefix>1.2</VersionPrefix>
     <Title>Campeonato das Tabuadas</Title>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/D3W10/Campeonato-das-Tabuadas</RepositoryUrl>
     <NeutralLanguage>pt-PT</NeutralLanguage>
     <PlatformTarget>AnyCPU</PlatformTarget>
+    <Version>1.2.1</Version>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <Prefer32Bit>false</Prefer32Bit>

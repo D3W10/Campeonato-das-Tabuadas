@@ -57,17 +57,26 @@ namespace Campeonato_das_Tabuadas.Classes
             // Classic Awards
             if (info.qtd == info.correct && ((info.qtd == 10 && info.min > 0) || info.qtd > 10) && info.max - info.min >= 9 && info.tab != -1)
             {
-                string tabToSearch = info.tab > 9 ? "X" : info.tab.ToString(), extraSufix = "";
+                string tabToSearch = info.tab > 9 ? "X" : info.tab.ToString();
 
                 if (info.shuffle && info.comutative)
-                    extraSufix = "G";
-                if (info.shuffle && info.comutative && info.minutes * 60 + info.seconds <= info.qtd * 2)
-                    extraSufix = "R";
-
-                if (!Convert.ToBoolean(obj.Awards.GetType().GetProperty("A" + tabToSearch + extraSufix).GetValue(obj.Awards, null)))
                 {
-                    obj.Awards.GetType().GetProperty("A" + tabToSearch + extraSufix).SetValue(obj.Awards, true);
-                    ShowAwardAlert("A" + tabToSearch + extraSufix + ".png", ref imageList);
+                    if (info.minutes * 60 + info.seconds <= info.qtd * 2 && !Convert.ToBoolean(obj.Awards.GetType().GetProperty("A" + tabToSearch + "R").GetValue(obj.Awards, null)))
+                    {
+                        obj.Awards.GetType().GetProperty("A" + tabToSearch + "R").SetValue(obj.Awards, true);
+                        ShowAwardAlert("A" + tabToSearch + "R.png", ref imageList);
+                    }
+                    
+                    if (!Convert.ToBoolean(obj.Awards.GetType().GetProperty("A" + tabToSearch + "G").GetValue(obj.Awards, null)))
+                    {
+                        obj.Awards.GetType().GetProperty("A" + tabToSearch + "G").SetValue(obj.Awards, true);
+                        ShowAwardAlert("A" + tabToSearch + "G.png", ref imageList);
+                    }
+                }
+                else
+                {
+                    obj.Awards.GetType().GetProperty("A" + tabToSearch).SetValue(obj.Awards, true);
+                    ShowAwardAlert("A" + tabToSearch + ".png", ref imageList);
                 }
             }
 

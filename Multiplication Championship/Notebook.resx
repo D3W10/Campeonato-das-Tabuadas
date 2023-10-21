@@ -1,0 +1,751 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblTitle.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblTitle.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 24pt, style=Bold</value>
+  </data>
+  <data name="lblTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 9</value>
+  </data>
+  <data name="lblTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>341, 45</value>
+  </data>
+  <data name="lblTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="lblTitle.Text" xml:space="preserve">
+    <value>Multiplication Book</value>
+  </data>
+  <data name="&gt;&gt;lblTitle.Name" xml:space="preserve">
+    <value>lblTitle</value>
+  </data>
+  <data name="&gt;&gt;lblTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTitle.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblTitle.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblTab10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblTab10.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblTab10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblTab10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 185</value>
+  </data>
+  <data name="lblTab10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 57</value>
+  </data>
+  <data name="lblTab10.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="lblTab10.Text" xml:space="preserve">
+    <value>1 × 10 = 10</value>
+  </data>
+  <data name="lblTab10.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblTab10.Name" xml:space="preserve">
+    <value>lblTab10</value>
+  </data>
+  <data name="&gt;&gt;lblTab10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTab10.Parent" xml:space="preserve">
+    <value>tlpNotebook</value>
+  </data>
+  <data name="&gt;&gt;lblTab10.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblTab8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblTab8.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblTab8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblTab8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>206, 126</value>
+  </data>
+  <data name="lblTab8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 59</value>
+  </data>
+  <data name="lblTab8.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="lblTab8.Text" xml:space="preserve">
+    <value>1 × 8 = 8</value>
+  </data>
+  <data name="lblTab8.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblTab8.Name" xml:space="preserve">
+    <value>lblTab8</value>
+  </data>
+  <data name="&gt;&gt;lblTab8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTab8.Parent" xml:space="preserve">
+    <value>tlpNotebook</value>
+  </data>
+  <data name="&gt;&gt;lblTab8.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblTab6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblTab6.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblTab6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblTab6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>409, 61</value>
+  </data>
+  <data name="lblTab6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 65</value>
+  </data>
+  <data name="lblTab6.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="lblTab6.Text" xml:space="preserve">
+    <value>1 × 6 = 6</value>
+  </data>
+  <data name="lblTab6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblTab6.Name" xml:space="preserve">
+    <value>lblTab6</value>
+  </data>
+  <data name="&gt;&gt;lblTab6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTab6.Parent" xml:space="preserve">
+    <value>tlpNotebook</value>
+  </data>
+  <data name="&gt;&gt;lblTab6.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblTab2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblTab2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblTab2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblTab2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>206, 0</value>
+  </data>
+  <data name="lblTab2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 61</value>
+  </data>
+  <data name="lblTab2.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="lblTab2.Text" xml:space="preserve">
+    <value>1 × 2 = 2</value>
+  </data>
+  <data name="lblTab2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblTab2.Name" xml:space="preserve">
+    <value>lblTab2</value>
+  </data>
+  <data name="&gt;&gt;lblTab2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTab2.Parent" xml:space="preserve">
+    <value>tlpNotebook</value>
+  </data>
+  <data name="&gt;&gt;lblTab2.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblTab9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblTab9.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblTab9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblTab9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>409, 126</value>
+  </data>
+  <data name="lblTab9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 59</value>
+  </data>
+  <data name="lblTab9.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="lblTab9.Text" xml:space="preserve">
+    <value>1 × 9 = 9</value>
+  </data>
+  <data name="lblTab9.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblTab9.Name" xml:space="preserve">
+    <value>lblTab9</value>
+  </data>
+  <data name="&gt;&gt;lblTab9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTab9.Parent" xml:space="preserve">
+    <value>tlpNotebook</value>
+  </data>
+  <data name="&gt;&gt;lblTab9.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblTab4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblTab4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblTab4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblTab4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 61</value>
+  </data>
+  <data name="lblTab4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 65</value>
+  </data>
+  <data name="lblTab4.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="lblTab4.Text" xml:space="preserve">
+    <value>1 × 4 = 4</value>
+  </data>
+  <data name="lblTab4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblTab4.Name" xml:space="preserve">
+    <value>lblTab4</value>
+  </data>
+  <data name="&gt;&gt;lblTab4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTab4.Parent" xml:space="preserve">
+    <value>tlpNotebook</value>
+  </data>
+  <data name="&gt;&gt;lblTab4.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="lblTab1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblTab1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblTab1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblTab1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="lblTab1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 61</value>
+  </data>
+  <data name="lblTab1.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="lblTab1.Text" xml:space="preserve">
+    <value>1 × 1 = 1</value>
+  </data>
+  <data name="lblTab1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblTab1.Name" xml:space="preserve">
+    <value>lblTab1</value>
+  </data>
+  <data name="&gt;&gt;lblTab1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTab1.Parent" xml:space="preserve">
+    <value>tlpNotebook</value>
+  </data>
+  <data name="&gt;&gt;lblTab1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblTab3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblTab3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblTab3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblTab3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>409, 0</value>
+  </data>
+  <data name="lblTab3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 61</value>
+  </data>
+  <data name="lblTab3.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="lblTab3.Text" xml:space="preserve">
+    <value>1 × 3 = 3</value>
+  </data>
+  <data name="lblTab3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblTab3.Name" xml:space="preserve">
+    <value>lblTab3</value>
+  </data>
+  <data name="&gt;&gt;lblTab3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTab3.Parent" xml:space="preserve">
+    <value>tlpNotebook</value>
+  </data>
+  <data name="&gt;&gt;lblTab3.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lblTab7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblTab7.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblTab7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblTab7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 126</value>
+  </data>
+  <data name="lblTab7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 59</value>
+  </data>
+  <data name="lblTab7.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="lblTab7.Text" xml:space="preserve">
+    <value>1 × 7 = 7</value>
+  </data>
+  <data name="lblTab7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblTab7.Name" xml:space="preserve">
+    <value>lblTab7</value>
+  </data>
+  <data name="&gt;&gt;lblTab7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTab7.Parent" xml:space="preserve">
+    <value>tlpNotebook</value>
+  </data>
+  <data name="&gt;&gt;lblTab7.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblTab5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblTab5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblTab5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblTab5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>206, 61</value>
+  </data>
+  <data name="lblTab5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 65</value>
+  </data>
+  <data name="lblTab5.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="lblTab5.Text" xml:space="preserve">
+    <value>1 × 5 = 5</value>
+  </data>
+  <data name="lblTab5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblTab5.Name" xml:space="preserve">
+    <value>lblTab5</value>
+  </data>
+  <data name="&gt;&gt;lblTab5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTab5.Parent" xml:space="preserve">
+    <value>tlpNotebook</value>
+  </data>
+  <data name="&gt;&gt;lblTab5.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="tbTab.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="tbTab.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 16pt, style=Bold</value>
+  </data>
+  <data name="tbTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>472, 18</value>
+  </data>
+  <data name="tbTab.MaxLength" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="tbTab.PlaceholderText" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="tbTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 36</value>
+  </data>
+  <data name="tbTab.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="tbTab.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbTab.Name" xml:space="preserve">
+    <value>tbTab</value>
+  </data>
+  <data name="&gt;&gt;tbTab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbTab.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbTab.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tlpNotebook.ColumnCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblTab12.Name" xml:space="preserve">
+    <value>lblTab12</value>
+  </data>
+  <data name="&gt;&gt;lblTab12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTab12.Parent" xml:space="preserve">
+    <value>tlpNotebook</value>
+  </data>
+  <data name="&gt;&gt;lblTab12.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblTab11.Name" xml:space="preserve">
+    <value>lblTab11</value>
+  </data>
+  <data name="&gt;&gt;lblTab11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTab11.Parent" xml:space="preserve">
+    <value>tlpNotebook</value>
+  </data>
+  <data name="&gt;&gt;lblTab11.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tlpNotebook.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 75</value>
+  </data>
+  <data name="tlpNotebook.RowCount" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="tlpNotebook.Size" type="System.Drawing.Size, System.Drawing">
+    <value>610, 242</value>
+  </data>
+  <data name="tlpNotebook.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;tlpNotebook.Name" xml:space="preserve">
+    <value>tlpNotebook</value>
+  </data>
+  <data name="&gt;&gt;tlpNotebook.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tlpNotebook.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tlpNotebook.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tlpNotebook.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblTab12" Row="3" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="lblTab11" Row="3" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblTab10" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblTab1" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblTab9" Row="2" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="lblTab7" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblTab8" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblTab5" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblTab2" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblTab6" Row="1" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="lblTab3" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="lblTab4" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50,Absolute,203" /&gt;&lt;Rows Styles="Percent,48,78049,Percent,51,21951,Absolute,59,Absolute,56" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="lblTab12.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblTab12.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblTab12.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblTab12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>409, 185</value>
+  </data>
+  <data name="lblTab12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 57</value>
+  </data>
+  <data name="lblTab12.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="lblTab12.Text" xml:space="preserve">
+    <value>1 × 12 = 12</value>
+  </data>
+  <data name="lblTab12.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="lblTab11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblTab11.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblTab11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblTab11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>206, 185</value>
+  </data>
+  <data name="lblTab11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 57</value>
+  </data>
+  <data name="lblTab11.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="lblTab11.Text" xml:space="preserve">
+    <value>1 × 11 = 11</value>
+  </data>
+  <data name="lblTab11.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="$this.Language" type="System.Globalization.CultureInfo, mscorlib">
+    <value>pt-PT</value>
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 15</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>634, 331</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKdcCgCnXAoRp1wKT6dcClynXApbp1wKXLlq
+        CVzYgwdb2IMHW9iDB1vYgwdb2IMHW9iDB1vYgwdb2IIHW9iCB1vYggdb2IIHW9iCB1vYggdb2IIHWNiD
+        BybYggYA2IMIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACpXQkAp10LAKldCn6oXQr8qF0K/qhd
+        Cv6nXAr+uWsJ/tiECP7YhAj+2IQI/tiECP7YhAj+2IQI/tiECP7YhAj+2IQI/tiECP7YhAj+2IQI/tiE
+        CP7Ygwj/1YUIwm+uAyoU0gAILMkAACzIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKlcBwCpWwUBqV0IpKld
+        CP+pXQj/ql4J/6ldCf+7bAn/2YUJ/9mFCf/ZhQn/2YUJ/9mFCf/ZhQn/2YUJ/9mFCf/ZhQn/2YUJ/9mF
+        Cf/ZhQn/2YUJ/9qFCf/GjAj7Q8AB5CrKAJEsyQAILMkAAAAAAAAAAAAAAAAAAAAAAADPy8YAu6OIAMnB
+        uBCnbCmwpGUe/6NkHP+kXQ3/ql0J/7xtCv/ahwv/2ocL/9qHC//ahwv/2ocL/9qHC//ahwv/2ocL/9qH
+        C//ahwv/2ocL/9qHC//ahwv/24YL/8WPCf9BwQH/KsoA3izJAB0syQAAAAAAAAAAAAAAAAAAAAAAANDM
+        xwDRzcgOzcnFrMS8s/e8s6j/tq6k/6iBVP+nWwf/vm8J/9qJDP/aiQz/2okM/9qJDP/aiQz/2okM/9qJ
+        DP/aiQz/2okM/9qJDP/aiQz/2okM/9qJDP/biAz/xZEL/0HBAf8qygDgLMkAHyzJAAAAAAAAAAAAAAAA
+        AAAAAAAA0MzHANHNyA7NycWsxLyz972zqP+3rqT/qYFU/6lcB/+/cAr/24oN/9uKDf/big3/24oN/9uK
+        Df/big3/24oN/9uKDf/big3/24oN/9uKDf/big3/24oN/9yKDf/Gkgv/QcEC/yrKAOAsyQAfLMkAAAAA
+        AAAAAAAAAAAAAAAAAADPy8YAvKSIAMnBtxCsbiewqWgd/6hmG/+pYAv/r2EH/8ByCv/cjA7/3IwO/9yM
+        Dv/cjA7/3IwO/9yMDv/cjA7/3IwO/9yMDv/cjA7/3IwO/9yMDv/cjA7/3YwO/8eTDP9BwgL/KsoA4CzJ
+        AB8syQAAAAAAAAAAAAAAAAAAAAAAAAAAAACyYQUAsmADAbJiBqSyYgb/smMG/7NkB/+yYwf/wnMK/9yO
+        EP/cjhD/3I4Q/9yOEP/cjhD/3I4Q/9yOEP/cjhD/3I4Q/9yOEP/cjhD/3I4Q/9yOD//djg//x5UN/0HC
+        Av8qygDgLMkAHyzJAAAAAAAAAAAAAAAAAAAAAAAAAAAAALVlBwC1ZQYBtWUHpbVlB/+1ZQf/tWUH/7Rk
+        B//DdAv/3Y8R/92PEf/djxH/3Y8R/92PEf/djxH/3Y8R/92PEf/djxH/3Y8R/92PEf/djxH/3Y8R/96P
+        Ef/Ilg//QcID/yvJAOAsyQAfLMkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAt2YGALdmBgG3Zgalt2YG/7dm
+        Bv+3Zgb/tmUG/8V1Cv/ekRL/3pES/96REv/ekRL/3pES/96REv/ekRL/3pES/96REv/ekRL/3pES/96R
+        Ev/ekRL/4JER/8WWI/8ptYv/GcBi4CrIDh8oxxcAAAAAAAAAAAAAAAAAAAAAAAAAAAC5ZwYAuWcGAbln
+        BqW5Zwb/uWcG/7lnBv+4Zgb/xncL/96TE//ekxP/3pMT/96TE//ekxP/3pMT/96TE//ekxP/3pMT/96T
+        E//ekxP/3pMT/96TE//gkxH/w5cv/xqw4P8Ate/hCrm9IAq5vgAAAAAAAAAAAAAAAAAAAAAAAAAAALZj
+        AQC1YAABtmQCpLZlAv+3ZQL/uWcE/7pnBf/IeAv/35UV/9+VFf/flBL/35MR/9+TEf/fkxH/35MR/9+T
+        Ef/fkxH/35MR/9+TEP/fkxD/35QT/+GUEv/EmDD/G7Xd/wC5+uEBufYfAbn2AAAAAAAAAAAAAAAAAAAA
+        AADPzMcA19fXAczHwje4jlzGs4FG/7F+Qv+wbBr/uGYE/8l5C//glhb/4JYW/+WrR//pu2n/6bpo/+m6
+        aP/pumj/6bpo/+m6aP/pumj/6bpo/+m5Zv/joTD/4pUT/8WbMf8but7/AL/74AC++R8AvvkAAAAAAAAA
+        AAAAAAAAAAAAANDMxwDRzcgUzcrFz8fFw//BwL//u7u8/7GPZ/+2ZQT/y3sL/+GYF//hmBf/7s2S//bu
+        4P/27d3/9u3d//bt3f/27d3/9u3d//bt3f/27d3/9uzb/+i0Wf/ilhL/xp0y/xu/3v8AxPvgAMT5HwDE
+        +QAAAAAAAAAAAAAAAAAAAAAA0MzHANLOygfNycRxwauQ4bqde/+1mXb/snk0/7poA//MfAv/4ZoY/+Ga
+        GP/joCf/5KQy/+SkMv/kpDL/5KQy/+SkMv/kpDL/5KQy/+SkMv/kpDH/4pwf/+OYFv/GnzP/G8Pf/wDJ
+        /OAAyfofAMn6AAAAAAAAAAAAAAAAAAAAAAAAAAAAvHIYALx2IgG6aQWluWkF/7lpBP+9aQP/wWwE/819
+        DP/imxn/4psZ/+ShKP/lpjP/5aYz/+WmM//lpjP/5aYz/+WmM//kpjP/5KYz/+SmMv/jniD/5JoX/8ei
+        NP8by+H/AND94ADO+x8AzvsAAAAAAAAAAAAAAAAAAAAAAAAAAADEbgMAxG8DAcRuA6XEbgP/xG4D/8Ru
+        A//DbQP/z38M/+OdG//jnRv/78+U//bu4P/27d3/9u3d//bt3f/27d3/9u3d//bt3f/27d3/9uzb/+m4
+        XP/knBb/ypw1/yuX2v8HtfrgANf8HwHS/AAAAAAAAAAAAAAAAAAAAAAAAAAAAMZvAwDGbwMBxm8DpcZv
+        A//GbwP/xm8D/8VuA//QgAz/458c/+OfHP/os0z/68Ft/+vAbP/rwGz/68Bs/+vAbP/rwGz/679s/+u/
+        bP/rvmv/5qk1/+SfGf/OkTX/TDfP/y5C7eAeffIfHnryAAAAAAAAAAAAAAAAAAAAAAAAAAAAx3ACAMdw
+        AwHHcAKlx3AC/8dwAv/HcAL/xm8C/9GBDP/koB3/5KAd/+SfG//knxn/5J8Z/+SfGf/knxn/5J8Z/+Sf
+        Gf/knxn/5J8Z/+SfGf/koBz/5aEb/9CSNv9QPNH/Oyzr4Tsy6iA7MuoAAAAAAAAAAAAAAAAAAAAAAAAA
+        AADJcgIAyXIDAclyAqXJcgL/yXIC/8lyAv/JcAL/04IM/+WiHv/loh7/5aIe/+WiHv/loh7/5aIe/+Wi
+        Hv/loh7/5aIe/+WiHv/loh7/5aIe/+WiHv/moxz/0ZU3/1VA0v9AMu3gQTPrH0Ez6wAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAMpwAADKbwABynEApMpxAP/KcgD/y3MC/8tyAv/UhA3/5aQg/+WkIP/lpCD/5aQg/+Wk
+        IP/lpCD/5aQg/+WkIP/lpCD/5aQg/+WkIP/lpCD/5aQg/+alHv/Slzn/WUXU/0Q37uBFOOwfRTjsAAAA
+        AAAAAAAAAAAAAAAAAADOy8YAxKmGAMvCtxDAfCOwv3YY/751Fv/CcAb/y3IA/9aFDP/mpSH/5qUh/+al
+        If/mpSH/5qUh/+alIf/mpSH/5qUh/+alIf/mpSH/5qUh/+alIf/mpSH/56Yf/9OYOv9dSdX/STzw4Eo9
+        7h9KPe4AAAAAAAAAAAAAAAAAAAAAANDMxwDRzcgOzcnFq8a+s/fAtaj/urCj/7iLUf/HbwD/2IcN/+en
+        Iv/npyL/56ci/+enIv/npyL/56ci/+enIv/npyL/56ci/+enIv/npyL/56ci/+enIv/oqCD/1Zs7/2BN
+        1v9NQPHgTkHvH05B7wAAAAAAAAAAAAAAAAAAAAAA0MzHANHNyA7NycWsxr6z98C1p/+6sKP/uYxQ/8lw
+        AP/ZiAz/56kj/+epI//nqSP/56kj/+epI//nqSP/56kj/+epI//nqSP/56kj/+epI//nqSP/56kj/+iq
+        If/VnTz/Y1HY/1BE8+BRRfEfUUXxAAAAAAAAAAAAAAAAAAAAAADPy8YAxaqFAMvDtxDEfiKww3gX/8N3
+        Ff/HcwX/0HUA/9qJDf/oqiX/6Kol/+iqJf/oqiX/6Kol/+iqJf/oqiX/6Kol/+iqJf/oqiX/6Kol/+iq
+        Jf/oqiX/6asj/9aePv9nVdn/VEj03lVJ8h1VSfIAAAAAAAAAAAAAAAAAAAAAAAAAAADRdgAA0XUAAdF2
+        AKTRdgD/0XYA/9J3AP/SdgD/2ooN/+msJv/prCb/6awm/+msJv/prCb/6awm/+msJv/prCb/6awm/+ms
+        Jv/prCb/6awm/+msJv/qrSX/2aI8+2ta1+RWS/aRV0vzCFdM8wAAAAAAAAAAAAAAAAAAAAAAAAAAANJ3
+        AADSdwAA0ncAftJ3APzSdwD+0ncA/tJ2AP7biw7+6q4n/uquJ/7qrif+6q4n/uquJ/7qrif+6q4n/uqu
+        J/7qrif+6q4n/uquJ/7qrif+6q4n/uquJ//mrCvCknSkKkZC/whaT/QAYlj3AAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAANJ3AADSdwAR0ncAT9J3AFzSdwBb0ncAXNuLD1zqryhb6q8oW+qvKFvqryhb6q8oW+qv
+        KFvqryhb6q8oW+qvKFvqryhb6q8oW+qvKFvqryhb6q8oWeqvKCbqsSkA6q4nAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA///////////4AAA/+AAAD/AAAAfwAAAH4AAAB+AAAAfwAAAH8AAAB/AA
+        AAfwAAAH8AAAB/AAAAfgAAAH4AAAB+AAAAfwAAAH8AAAB/AAAAfwAAAH8AAAB/AAAAfwAAAH4AAAB+AA
+        AAfwAAAH8AAAB/gAAA/4AAA///////////8=
+</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Multiplication Book</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Notebook</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

@@ -675,13 +675,13 @@
   <data name="$this.Text" xml:space="preserve">
     <value>Bem-vindo</value>
   </data>
-  <data name="btnAprendiz.Text" xml:space="preserve">
+  <data name="btnApprentice.Text" xml:space="preserve">
     <value>Aprendiz</value>
   </data>
   <data name="btnLogin.Text" xml:space="preserve">
     <value>Iniciar Sessão</value>
   </data>
-  <data name="btnMestre.Text" xml:space="preserve">
+  <data name="btnMaster.Text" xml:space="preserve">
     <value>Mestre</value>
   </data>
   <data name="lblBetter.Text" xml:space="preserve">
@@ -690,7 +690,7 @@
   <data name="lblInfo.Text" xml:space="preserve">
     <value>Bem-vindo ao Campeonato das Tabuadas, selecione uma opção de início de sessão:</value>
   </data>
-  <data name="lblInfoMestre.Text" xml:space="preserve">
+  <data name="lblInfoMaster.Text" xml:space="preserve">
     <value>Olá mestre! Insira a sua palavra-passe:</value>
   </data>
   <data name="lblLogin.Text" xml:space="preserve">
@@ -698,6 +698,12 @@
   </data>
   <data name="lblWelcome.Text" xml:space="preserve">
     <value>Bem-vindo</value>
+  </data>
+  <data name="loginMessage" xml:space="preserve">
+    <value>A palavra-passe inserida está incorreta!</value>
+  </data>
+  <data name="tbPassword.PlaceholderText" xml:space="preserve">
+    <value>Palavra-passe</value>
   </data>
   <data name="tpMaster.Text" xml:space="preserve">
     <value>Mestre</value>

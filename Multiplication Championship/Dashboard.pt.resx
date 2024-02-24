@@ -118,39 +118,75 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="$this.Text" xml:space="preserve">
-    <value>Controlo Mestre</value>
+    <value>Campeonato das Tabuadas</value>
   </data>
-  <data name="btnAwards.Text" xml:space="preserve">
-    <value>Remover todas as medalhas</value>
+  <data name="btnStart.Text" xml:space="preserve">
+    <value>Começar</value>
   </data>
-  <data name="btnAwards.ToolTip" xml:space="preserve">
-    <value>Remove todas as medalhas obtidas</value>
+  <data name="cbbMultiplication.Items10" xml:space="preserve">
+    <value>Todas</value>
   </data>
-  <data name="btnComutative.Text" xml:space="preserve">
-    <value>Sempre comutativa</value>
+  <data name="cbbMultiplication.Items9" xml:space="preserve">
+    <value>Outra</value>
   </data>
-  <data name="btnComutative.ToolTip" xml:space="preserve">
-    <value>Força todos os jogos a usarem a opção comutativa</value>
+  <data name="cbComutative.Text" xml:space="preserve">
+    <value>Comutativa</value>
   </data>
-  <data name="btnDestroy.Text" xml:space="preserve">
-    <value>Remover completamente o registo!</value>
+  <data name="cbShuffle.Text" xml:space="preserve">
+    <value>Aleatório</value>
   </data>
-  <data name="btnDestroy.ToolTip" xml:space="preserve">
-    <value>Remove todos os dados e configurações da aplicação</value>
+  <data name="chName.Text" xml:space="preserve">
+    <value>Nome</value>
   </data>
-  <data name="btnPoints.Text" xml:space="preserve">
-    <value>Reiniciar registo de corretas/erradas</value>
+  <data name="chState.Text" xml:space="preserve">
+    <value>Estado</value>
   </data>
-  <data name="btnPoints.ToolTip" xml:space="preserve">
-    <value>Reinicia as contagens de perguntas corretas e erradas</value>
+  <data name="closeInGameMessage" xml:space="preserve">
+    <value>Tem a certeza que quer terminar o jogo atual? As respostas certas e erradas não serão contabilizadas.</value>
   </data>
-  <data name="btnShuffle.Text" xml:space="preserve">
-    <value>Sempre aleatório</value>
+  <data name="lblAwards.Text" xml:space="preserve">
+    <value>Medalhas</value>
   </data>
-  <data name="btnShuffle.ToolTip" xml:space="preserve">
-    <value>Força todos os jogos a usarem a opção aleatório</value>
+  <data name="lblMax.Text" xml:space="preserve">
+    <value>Valor Máximo:</value>
   </data>
-  <data name="lblTitle.Text" xml:space="preserve">
-    <value>Controlo Mestre</value>
+  <data name="lblMin.Text" xml:space="preserve">
+    <value>Valor Mínimo:</value>
+  </data>
+  <data name="lblMultiplication.Text" xml:space="preserve">
+    <value>Tabuada:</value>
+  </data>
+  <data name="lblNoGameInfo.Text" xml:space="preserve">
+    <value>Configure e inicie um jogo através das configurações ao lado</value>
+  </data>
+  <data name="lblQty.Text" xml:space="preserve">
+    <value>Qtd. de Perguntas:</value>
+  </data>
+  <data name="lblTextAwards.Text" xml:space="preserve">
+    <value>Aqui estão todas as medalhas que conseguiste até agora:</value>
+  </data>
+  <data name="loseMessage" xml:space="preserve">
+    <value>Estás a precisar de praticar. Estuda um bocado e volta a tentar!</value>
+  </data>
+  <data name="noMultiplicationMessage" xml:space="preserve">
+    <value>Nenhuma tabuada foi inserida na caixa de texto!</value>
+  </data>
+  <data name="noNumberMessage" xml:space="preserve">
+    <value>Deve ser inserido um número na caixa de texto!</value>
+  </data>
+  <data name="noZeroMessage" xml:space="preserve">
+    <value>Devias saber que qualquer número a multiplicar por 0 é sempre 0...</value>
+  </data>
+  <data name="tpAwards.Text" xml:space="preserve">
+    <value>Medalhas</value>
+  </data>
+  <data name="tpGame.Text" xml:space="preserve">
+    <value>Jogo</value>
+  </data>
+  <data name="tpSetup.Text" xml:space="preserve">
+    <value>Configurar</value>
+  </data>
+  <data name="winMessage" xml:space="preserve">
+    <value>Boa, conseguiste acertar um bom número de tabuadas. Continua assim!</value>
   </data>
 </root>

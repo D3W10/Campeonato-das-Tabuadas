@@ -117,77 +117,143 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="&gt;&gt;tpMaster.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="lblWelcome.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="lblInfo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>302, 43</value>
+  <data name="lblWelcome.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 24pt, style=Bold</value>
   </data>
-  <data name="tbPassword.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="lblWelcome.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 9</value>
   </data>
-  <data name="&gt;&gt;btnAprendiz.Parent" xml:space="preserve">
-    <value>tpWelcome</value>
+  <data name="lblWelcome.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 45</value>
   </data>
-  <data name="btnAprendiz.Size" type="System.Drawing.Size, System.Drawing">
-    <value>176, 46</value>
-  </data>
-  <data name="lblInfoMestre.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 63</value>
-  </data>
-  <data name="&gt;&gt;btnLogin.ZOrder" xml:space="preserve">
+  <data name="lblWelcome.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
+  <data name="lblWelcome.Text" xml:space="preserve">
+    <value>Welcome</value>
   </data>
-  <data name="tpMaster.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;lblLogin.Name" xml:space="preserve">
-    <value>lblLogin</value>
-  </data>
-  <data name="tbPassword.Size" type="System.Drawing.Size, System.Drawing">
-    <value>176, 23</value>
-  </data>
-  <data name="btnMestre.Location" type="System.Drawing.Point, System.Drawing">
-    <value>88, 238</value>
-  </data>
-  <data name="btnLogin.Text" xml:space="preserve">
-    <value>Login</value>
-  </data>
-  <data name="btnMestre.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;tpWelcome.Name" xml:space="preserve">
-    <value>tpWelcome</value>
-  </data>
-  <data name="btnLogin.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom</value>
-  </data>
-  <data name="&gt;&gt;lblBetter.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;btnLogin.Parent" xml:space="preserve">
-    <value>tpMaster</value>
-  </data>
-  <data name="&gt;&gt;btnMestre.Parent" xml:space="preserve">
-    <value>tpWelcome</value>
-  </data>
-  <data name="&gt;&gt;tpWelcome.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tpMaster.Name" xml:space="preserve">
-    <value>tpMaster</value>
+  <data name="&gt;&gt;lblWelcome.Name" xml:space="preserve">
+    <value>lblWelcome</value>
   </data>
   <data name="&gt;&gt;lblWelcome.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblWelcome.Parent" xml:space="preserve">
+    <value>tpWelcome</value>
+  </data>
+  <data name="&gt;&gt;lblWelcome.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnApprentice.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnApprentice.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11.25pt</value>
+  </data>
+  <data name="btnApprentice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>75, 136</value>
+  </data>
+  <data name="btnApprentice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 46</value>
+  </data>
+  <data name="btnApprentice.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnApprentice.Text" xml:space="preserve">
+    <value>Apprentice</value>
+  </data>
+  <data name="&gt;&gt;btnApprentice.Name" xml:space="preserve">
+    <value>btnApprentice</value>
+  </data>
+  <data name="&gt;&gt;btnApprentice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnApprentice.Parent" xml:space="preserve">
+    <value>tpWelcome</value>
+  </data>
+  <data name="&gt;&gt;btnApprentice.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnMaster.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="btnMaster.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 238</value>
+  </data>
+  <data name="btnMaster.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 23</value>
+  </data>
+  <data name="btnMaster.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnMaster.Text" xml:space="preserve">
+    <value>Master</value>
+  </data>
+  <data name="&gt;&gt;btnMaster.Name" xml:space="preserve">
+    <value>btnMaster</value>
+  </data>
+  <data name="&gt;&gt;btnMaster.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnMaster.Parent" xml:space="preserve">
+    <value>tpWelcome</value>
+  </data>
+  <data name="&gt;&gt;btnMaster.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblInfo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="lblInfo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="lblInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 63</value>
+  </data>
+  <data name="lblInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>302, 43</value>
+  </data>
+  <data name="lblInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblInfo.Text" xml:space="preserve">
+    <value>Welcome to the Multiplication Championship, please select a login option:</value>
+  </data>
+  <data name="&gt;&gt;lblInfo.Name" xml:space="preserve">
+    <value>lblInfo</value>
+  </data>
+  <data name="&gt;&gt;lblInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblInfo.Parent" xml:space="preserve">
+    <value>tpWelcome</value>
+  </data>
+  <data name="&gt;&gt;lblInfo.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblBetter.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="lblBetter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 218</value>
+  </data>
+  <data name="lblBetter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 15</value>
+  </data>
+  <data name="lblBetter.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblBetter.Text" xml:space="preserve">
+    <value>Or even better:</value>
+  </data>
+  <data name="lblBetter.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
   </data>
   <data name="&gt;&gt;lblBetter.Name" xml:space="preserve">
     <value>lblBetter</value>
@@ -195,168 +261,255 @@
   <data name="&gt;&gt;lblBetter.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="btnMestre.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="&gt;&gt;lblBetter.Parent" xml:space="preserve">
+    <value>tpWelcome</value>
+  </data>
+  <data name="&gt;&gt;lblBetter.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnLogin.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom</value>
   </data>
-  <data name="tcPages.Padding" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="lblBetter.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="lblInfoMestre.Text" xml:space="preserve">
-    <value>Hey master! Please type your password:</value>
-  </data>
-  <data name="&gt;&gt;lblInfo.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="lblInfo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="&gt;&gt;btnAprendiz.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="tpWelcome.Text" xml:space="preserve">
-    <value>Welcome</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tbPassword.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="tcPages.Size" type="System.Drawing.Size, System.Drawing">
-    <value>334, 311</value>
-  </data>
-  <data name="lblInfoMestre.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;tbPassword.Parent" xml:space="preserve">
-    <value>tpMaster</value>
-  </data>
-  <data name="btnAprendiz.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="&gt;&gt;lblInfo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lblWelcome.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 9</value>
-  </data>
-  <data name="&gt;&gt;btnAprendiz.Name" xml:space="preserve">
-    <value>btnAprendiz</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>7, 15</value>
-  </data>
-  <data name="lblInfoMestre.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="lblInfo.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 12pt</value>
-  </data>
-  <data name="lblBetter.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom</value>
-  </data>
-  <data name="tcPages.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="lblWelcome.Text" xml:space="preserve">
-    <value>Welcome</value>
-  </data>
-  <data name="tpMaster.Size" type="System.Drawing.Size, System.Drawing">
-    <value>326, 280</value>
+  <data name="btnLogin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 238</value>
   </data>
   <data name="btnLogin.Size" type="System.Drawing.Size, System.Drawing">
     <value>150, 23</value>
   </data>
-  <data name="lblBetter.Text" xml:space="preserve">
-    <value>Or even better:</value>
+  <data name="btnLogin.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="tpMaster.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
+  <data name="btnLogin.Text" xml:space="preserve">
+    <value>Login</value>
   </data>
-  <data name="tpMaster.Text" xml:space="preserve">
-    <value>Master</value>
+  <data name="&gt;&gt;btnLogin.Name" xml:space="preserve">
+    <value>btnLogin</value>
+  </data>
+  <data name="&gt;&gt;btnLogin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnLogin.Parent" xml:space="preserve">
+    <value>tpMaster</value>
+  </data>
+  <data name="&gt;&gt;btnLogin.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tbPassword.Location" type="System.Drawing.Point, System.Drawing">
+    <value>75, 136</value>
+  </data>
+  <data name="tbPassword.PlaceholderText" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="tbPassword.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 23</value>
+  </data>
+  <data name="tbPassword.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tbPassword.Name" xml:space="preserve">
+    <value>tbPassword</value>
+  </data>
+  <data name="&gt;&gt;tbPassword.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbPassword.Parent" xml:space="preserve">
+    <value>tpMaster</value>
+  </data>
+  <data name="&gt;&gt;tbPassword.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblInfoMaster.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="lblInfoMaster.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblInfoMaster.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="lblInfoMaster.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 63</value>
+  </data>
+  <data name="lblInfoMaster.Size" type="System.Drawing.Size, System.Drawing">
+    <value>286, 21</value>
+  </data>
+  <data name="lblInfoMaster.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblInfoMaster.Text" xml:space="preserve">
+    <value>Hey master! Please type your password:</value>
+  </data>
+  <data name="&gt;&gt;lblInfoMaster.Name" xml:space="preserve">
+    <value>lblInfoMaster</value>
+  </data>
+  <data name="&gt;&gt;lblInfoMaster.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblInfoMaster.Parent" xml:space="preserve">
+    <value>tpMaster</value>
+  </data>
+  <data name="&gt;&gt;lblInfoMaster.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblLogin.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLogin.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 24pt, style=Bold</value>
+  </data>
+  <data name="lblLogin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 9</value>
+  </data>
+  <data name="lblLogin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 45</value>
+  </data>
+  <data name="lblLogin.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
   </data>
   <data name="lblLogin.Text" xml:space="preserve">
     <value>Login</value>
   </data>
-  <data name="&gt;&gt;tcPages.Name" xml:space="preserve">
+  <data name="&gt;&gt;lblLogin.Name" xml:space="preserve">
+    <value>lblLogin</value>
+  </data>
+  <data name="&gt;&gt;lblLogin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLogin.Parent" xml:space="preserve">
+    <value>tpMaster</value>
+  </data>
+  <data name="&gt;&gt;lblLogin.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tcPages.Appearance" type="System.Windows.Forms.TabAppearance, System.Windows.Forms">
+    <value>FlatButtons</value>
+  </data>
+  <data name="tpWelcome.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 27</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tpWelcome.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tpWelcome.Size" type="System.Drawing.Size, System.Drawing">
+    <value>326, 280</value>
+  </data>
+  <data name="tpWelcome.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tpWelcome.Text" xml:space="preserve">
+    <value>Welcome</value>
+  </data>
+  <data name="&gt;&gt;tpWelcome.Name" xml:space="preserve">
+    <value>tpWelcome</value>
+  </data>
+  <data name="&gt;&gt;tpWelcome.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpWelcome.Parent" xml:space="preserve">
     <value>tcPages</value>
   </data>
   <data name="&gt;&gt;tpWelcome.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;lblInfo.Name" xml:space="preserve">
-    <value>lblInfo</value>
+  <data name="btnBack.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
   </data>
-  <data name="lblInfoMestre.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 12pt</value>
+  <data name="btnBack.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
   </data>
-  <data name="&gt;&gt;lblInfoMestre.Parent" xml:space="preserve">
+  <data name="btnBack.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnBack.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnBack.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 227</value>
+  </data>
+  <data name="btnBack.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 45</value>
+  </data>
+  <data name="btnBack.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;btnBack.Name" xml:space="preserve">
+    <value>btnBack</value>
+  </data>
+  <data name="&gt;&gt;btnBack.Type" xml:space="preserve">
+    <value>Multiplication_Championship.Components.RoundedButton, Multiplication Championship, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnBack.Parent" xml:space="preserve">
     <value>tpMaster</value>
   </data>
-  <data name="btnLogin.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
+  <data name="&gt;&gt;btnBack.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
-  <data name="tpWelcome.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="tpMaster.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 27</value>
+  </data>
+  <data name="tpMaster.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
-  <data name="lblInfo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 63</value>
+  <data name="tpMaster.Size" type="System.Drawing.Size, System.Drawing">
+    <value>326, 280</value>
   </data>
-  <data name="&gt;&gt;lblBetter.Parent" xml:space="preserve">
-    <value>tpWelcome</value>
+  <data name="tpMaster.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
-  <data name="&gt;&gt;lblInfoMestre.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="tpMaster.Text" xml:space="preserve">
+    <value>Master</value>
   </data>
-  <data name="lblBetter.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
+  <data name="&gt;&gt;tpMaster.Name" xml:space="preserve">
+    <value>tpMaster</value>
+  </data>
+  <data name="&gt;&gt;tpMaster.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpMaster.Parent" xml:space="preserve">
+    <value>tcPages</value>
+  </data>
+  <data name="&gt;&gt;tpMaster.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="tcPages.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="btnAprendiz.TabIndex" type="System.Int32, mscorlib">
+  <data name="tcPages.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tcPages.Padding" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tcPages.Size" type="System.Drawing.Size, System.Drawing">
+    <value>334, 311</value>
+  </data>
+  <data name="tcPages.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="btnAprendiz.Text" xml:space="preserve">
-    <value>Apprentice</value>
+  <data name="&gt;&gt;tcPages.Name" xml:space="preserve">
+    <value>tcPages</value>
   </data>
-  <data name="&gt;&gt;lblInfoMestre.Name" xml:space="preserve">
-    <value>lblInfoMestre</value>
+  <data name="&gt;&gt;tcPages.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="lblBetter.Location" type="System.Drawing.Point, System.Drawing">
-    <value>113, 218</value>
+  <data name="&gt;&gt;tcPages.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tcPages.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>57</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 15</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>334, 311</value>
-  </data>
-  <data name="lblBetter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 15</value>
-  </data>
-  <data name="&gt;&gt;lblLogin.Parent" xml:space="preserve">
-    <value>tpMaster</value>
-  </data>
-  <data name="lblWelcome.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;btnAprendiz.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lblInfoMestre.Size" type="System.Drawing.Size, System.Drawing">
-    <value>276, 21</value>
-  </data>
-  <data name="lblLogin.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 24pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;btnMestre.Name" xml:space="preserve">
-    <value>btnMestre</value>
-  </data>
-  <data name="&gt;&gt;tpWelcome.Parent" xml:space="preserve">
-    <value>tcPages</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -912,133 +1065,16 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 </value>
   </data>
-  <data name="btnAprendiz.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 11.25pt</value>
-  </data>
-  <data name="&gt;&gt;btnLogin.Name" xml:space="preserve">
-    <value>btnLogin</value>
-  </data>
-  <data name="lblLogin.Size" type="System.Drawing.Size, System.Drawing">
-    <value>221, 45</value>
-  </data>
-  <data name="btnAprendiz.Location" type="System.Drawing.Point, System.Drawing">
-    <value>75, 136</value>
-  </data>
-  <data name="tpWelcome.Size" type="System.Drawing.Size, System.Drawing">
-    <value>326, 280</value>
-  </data>
-  <data name="lblInfoMestre.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;lblInfoMestre.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;tpMaster.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="tpWelcome.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="lblWelcome.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 24pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;tcPages.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btnMestre.Size" type="System.Drawing.Size, System.Drawing">
-    <value>150, 23</value>
-  </data>
-  <data name="&gt;&gt;lblInfo.Parent" xml:space="preserve">
-    <value>tpWelcome</value>
-  </data>
-  <data name="&gt;&gt;lblWelcome.Parent" xml:space="preserve">
-    <value>tpWelcome</value>
-  </data>
-  <data name="lblLogin.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblLogin.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 9</value>
-  </data>
-  <data name="&gt;&gt;btnLogin.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tcPages.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="lblInfo.Text" xml:space="preserve">
-    <value>Welcome to the Multiplication Championship, please select a login option:</value>
-  </data>
-  <data name="&gt;&gt;tcPages.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="lblInfo.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;lblWelcome.Name" xml:space="preserve">
-    <value>lblWelcome</value>
-  </data>
-  <data name="btnMestre.Text" xml:space="preserve">
-    <value>Master</value>
-  </data>
-  <data name="&gt;&gt;tbPassword.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>Welcome</value>
-  </data>
-  <data name="btnLogin.Location" type="System.Drawing.Point, System.Drawing">
-    <value>88, 238</value>
-  </data>
-  <data name="&gt;&gt;lblLogin.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;tbPassword.Name" xml:space="preserve">
-    <value>tbPassword</value>
-  </data>
-  <data name="lblWelcome.Size" type="System.Drawing.Size, System.Drawing">
-    <value>185, 45</value>
-  </data>
-  <data name="&gt;&gt;btnMestre.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lblLogin.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Welcome</value>
   </data>
-  <data name="tpMaster.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 27</value>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Welcome</value>
   </data>
-  <data name="tpWelcome.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 27</value>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;tpMaster.Parent" xml:space="preserve">
-    <value>tcPages</value>
-  </data>
-  <data name="tcPages.Appearance" type="System.Windows.Forms.TabAppearance, System.Windows.Forms">
-    <value>FlatButtons</value>
-  </data>
-  <data name="tbPassword.Location" type="System.Drawing.Point, System.Drawing">
-    <value>75, 136</value>
-  </data>
-  <data name="&gt;&gt;lblWelcome.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;btnMestre.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;lblLogin.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="tcPages.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>57</value>
-  </metadata>
 </root>

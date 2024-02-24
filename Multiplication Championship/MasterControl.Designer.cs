@@ -79,6 +79,7 @@ namespace Multiplication_Championship
             // 
             resources.ApplyResources(lblTitle, "lblTitle");
             lblTitle.Name = "lblTitle";
+            ttExplain.SetToolTip(lblTitle, resources.GetString("lblTitle.ToolTip"));
             // 
             // btnDestroy
             // 
@@ -100,6 +101,7 @@ namespace Multiplication_Championship
             btnBack.Cursor = System.Windows.Forms.Cursors.Hand;
             btnBack.ForeColor = System.Drawing.SystemColors.ControlText;
             btnBack.Name = "btnBack";
+            ttExplain.SetToolTip(btnBack, resources.GetString("btnBack.ToolTip"));
             btnBack.UseVisualStyleBackColor = false;
             btnBack.Click += btnBack_Click;
             // 
@@ -117,6 +119,7 @@ namespace Multiplication_Championship
             FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             MaximizeBox = false;
             Name = "MasterControl";
+            ttExplain.SetToolTip(this, resources.GetString("$this.ToolTip"));
             Load += MasterControl_Load;
             ResumeLayout(false);
             PerformLayout();

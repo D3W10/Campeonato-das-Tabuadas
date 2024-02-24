@@ -208,4 +208,10 @@
   <data name="tabuadaTodas" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\todas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="masterPassword" xml:space="preserve">
+    <value>multiplicationmaster</value>
+  </data>
+  <data name="appName" xml:space="preserve">
+    <value>Multiplication Championship</value>
+  </data>
 </root>

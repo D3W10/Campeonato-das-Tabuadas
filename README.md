@@ -23,17 +23,23 @@
 1. [About](#about)
     - [Built With](#built-with)
 2. [Getting Started](#getting-started)
-    - [Prerequisites](#prerequisites)
+    - [System Requirements](#system-requirements)
     - [Installation](#installation)
-3. [License](#license)
-4. [Credits](#credits)
+3. [Game Description](#game-description)
+    - [Apprentice Dashboard](#apprentice-dashboard)
+    - [Master Control](#master-control)
+4. [Development](#development)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation-1)
+5. [License](#license)
+6. [Credits](#credits)
 
 <br />
 <br />
 
 ## About
 
-Multiplication Championship is a desktop application that let's you test your knowledge and speed doing quick multiplications. It contains an award system, an integrated calculator, a notebook to review some forgotten multiplications and also an admin panel.
+Multiplication Championship is a desktop application that let's you test your knowledge and speed on doing quick multiplications. It is built to be used mainly by kids to help them learn and have fun at the same time. It contains an award system, an integrated calculator, a notebook to study multiplications and also a parental control panel.
 
 <br />
 
@@ -41,20 +47,74 @@ Multiplication Championship is a desktop application that let's you test your kn
 
 - [C#](https://learn.microsoft.com/dotnet/csharp/)
 - [.NET Core](https://dotnet.microsoft.com/)
-- [Windows Forms (.NET Core)](https://learn.microsoft.com/dotnet/desktop/winforms/overview/)
 
 <br />
 <br />
 
 ## Getting Started
 
-In case you wanna deploy a copy of Multiplication Championship on your device, follow the steps below to get started.
+In order to play the game go to the [releases page](https://github.com/D3W10/Multiplication-Championship/releases) and download the latest version.
+
+<br />
+
+### System Requirements
+
+To run the game you need:
+
+- A computer running Windows:
+    - Windows 10 or superior;
+- At least 50 MB of free space.
+
+<br />
+
+### Installation
+
+After downloading the game from the [releases page](https://github.com/D3W10/Multiplication-Championship/releases), run the main `.exe` file and start using it. Multiplication Championship is a portable application, so it can be saved in a portable drive (like a pen USB) and be used in any windows machine.
+
+<br />
+<br />
+
+## App Description
+
+The welcome screen is the first window you get presented with when launching the app. From here you can select one of two options, "Apprentice" and "Master".
+
+<br />
+
+### Apprentice Dashboard
+
+The apprentice dashboard is the home of most of the features that the application has to offer. Here you will find the calculator, the multiplication notebook and the awards list.
+
+On the left side of the window you can setup the settings and start a new game. You can select from the available options, use a custom number or do all of them mixed together. It is also possible to select the minimum and maximum values, number of questions and if the order should be randomized and commutative.
+
+When a game is about to start the count down starts and the time will begin counting up, on the top left is possible to check on which question we're currently at and on the bottom left the amount of correct and wrong answers.
+
+When the game ends it will consider a win if there were more correct than wrong answers and award the medals that were conquered.
+
+<br />
+
+### Master Control
+
+The master control is where parents can setup and control specific rules for the game, it is protected by a password that you can check below.
+
+Parents can reset the correct/wrong answer counters, force random and/or commutative, remove all medals or delete all data created by the application.
+
+**Password**
+- English - *multiplicationmaster*
+- Portuguese - *mestredastabuadas*
+
+<br />
+<br />
+
+## Development
+
+If you want to deploy a copy of Multiplication Championship on your device to develop a feature or fix a bug, follow the steps below to get started.
 
 <br />
 
 ### Prerequisites
 
-In order to run the application, you will need the following tools:
+In order to run the game, you will need the following tools:
+- Visual Studio 2022
 - C# 11.0
 - .NET Core 7
 - git (*opcional*)
@@ -67,19 +127,19 @@ In order to run the application, you will need the following tools:
     ```sh
     git clone https://github.com/D3W10/Multiplication-Championship.git
     ```
-2. Open the project solution using Visual Studio (`.sln` file)
-3. Compile e execute pressionando `F5`
+2. Open the project solution (`.sln` file) using Visual Studio
+3. Compile and run by pressing `F5`
 
 <br />
 <br />
 
 ## License
 
-Distributed under the Mozilla Public License 2.0. See `LICENSE` for more details.
+Distributed under the Mozilla Public License 2.0. Check `LICENSE` for more details.
 
 <br />
 <br />
 
 ## Credits
 
-- Made by [D3W10](https://d3w10.netlify.app/)
+- Made by [Daniel Nunes](https://d3w10.netlify.app/)

@@ -3,18 +3,21 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.IO;
 using System.Linq;
+using System.Resources;
 using System.Text.Json;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Multiplication_Championship.Classes;
+using Multiplication_Championship.Properties;
 
 namespace Multiplication_Championship
 {
     public partial class Dashboard : Form
     {
         public bool goBack = false;
-        private static DirectoryInfo appDataFolder = new(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "\\" + Application.ProductName);
-        private static FileInfo registFile = new(appDataFolder.FullName + "\\data.json");
+        private static readonly DirectoryInfo appDataFolder = new(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "\\" + Application.ProductName);
+        private static readonly FileInfo registFile = new(appDataFolder.FullName + "\\data.json");
+        private readonly ResourceManager resources = new(typeof(Dashboard));
 
         public Dashboard()
         {
@@ -29,7 +32,7 @@ namespace Multiplication_Championship
         {
             JSONFormat classObject;
 
-            cbbTabuada.SelectedIndex = 1;
+            cbbMultiplication.SelectedIndex = 1;
             if (!appDataFolder.Exists)
                 appDataFolder.Create();
             if (registFile.Exists)
@@ -59,7 +62,7 @@ namespace Multiplication_Championship
                 tTime.Enabled = false;
                 e.Cancel = true;
 
-                DialogResult closeWarn = MessageBox.Show("Tem a certeza que quer terminar o jogo atual? As respostas certas e erradas não serão contabilizadas.", Application.ProductName, MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                DialogResult closeWarn = MessageBox.Show(resources.GetString("closeInGameMessage"), Resources.appName, MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
 
                 if (closeWarn == DialogResult.Yes)
                     EndGame();
@@ -84,7 +87,7 @@ namespace Multiplication_Championship
 
                     ListViewItem listViewItem = new()
                     {
-                        ImageKey = award.Id + ".png",
+                        ImageKey = award.Id,
                         Tag = award.Id,
                         UseItemStyleForSubItems = false
                     };
@@ -132,37 +135,41 @@ namespace Multiplication_Championship
 
         private void cbbTabuada_SelectedIndexChanged(object sender, EventArgs e)
         {
-            tbTabuada.Enabled = false;
-            if (cbbTabuada.SelectedItem.ToString() == "1")
-                pbNTabuada.Image = Properties.Resources.tabuada1;
-            else if (cbbTabuada.SelectedItem.ToString() == "2")
-                pbNTabuada.Image = Properties.Resources.tabuada2;
-            else if (cbbTabuada.SelectedItem.ToString() == "3")
-                pbNTabuada.Image = Properties.Resources.tabuada3;
-            else if (cbbTabuada.SelectedItem.ToString() == "4")
-                pbNTabuada.Image = Properties.Resources.tabuada4;
-            else if (cbbTabuada.SelectedItem.ToString() == "5")
-                pbNTabuada.Image = Properties.Resources.tabuada5;
-            else if (cbbTabuada.SelectedItem.ToString() == "6")
-                pbNTabuada.Image = Properties.Resources.tabuada6;
-            else if (cbbTabuada.SelectedItem.ToString() == "7")
-                pbNTabuada.Image = Properties.Resources.tabuada7;
-            else if (cbbTabuada.SelectedItem.ToString() == "8")
-                pbNTabuada.Image = Properties.Resources.tabuada8;
-            else if (cbbTabuada.SelectedItem.ToString() == "9")
-                pbNTabuada.Image = Properties.Resources.tabuada9;
-            else if (cbbTabuada.SelectedItem.ToString() == "Outra")
+            tbMultiplication.Enabled = false;
+            tbMultiplication.PlaceholderText = "";
+            tbMultiplication.Clear();
+
+            if (cbbMultiplication.SelectedIndex == 0)
+                pbNMultiplication.Image = Resources.tabuada1;
+            else if (cbbMultiplication.SelectedIndex == 1)
+                pbNMultiplication.Image = Resources.tabuada2;
+            else if (cbbMultiplication.SelectedIndex == 2)
+                pbNMultiplication.Image = Resources.tabuada3;
+            else if (cbbMultiplication.SelectedIndex == 3)
+                pbNMultiplication.Image = Resources.tabuada4;
+            else if (cbbMultiplication.SelectedIndex == 4)
+                pbNMultiplication.Image = Resources.tabuada5;
+            else if (cbbMultiplication.SelectedIndex == 5)
+                pbNMultiplication.Image = Resources.tabuada6;
+            else if (cbbMultiplication.SelectedIndex == 6)
+                pbNMultiplication.Image = Resources.tabuada7;
+            else if (cbbMultiplication.SelectedIndex == 7)
+                pbNMultiplication.Image = Resources.tabuada8;
+            else if (cbbMultiplication.SelectedIndex == 8)
+                pbNMultiplication.Image = Resources.tabuada9;
+            else if (cbbMultiplication.SelectedIndex == 9)
             {
-                pbNTabuada.Image = Properties.Resources.tabuadaX;
-                tbTabuada.Enabled = true;
+                pbNMultiplication.Image = Resources.tabuadaX;
+                tbMultiplication.Enabled = true;
+                tbMultiplication.PlaceholderText = "12";
             }
-            else if (cbbTabuada.SelectedItem.ToString() == "Todas")
-                pbNTabuada.Image = Properties.Resources.tabuadaTodas;
+            else if (cbbMultiplication.SelectedIndex == 10)
+                pbNMultiplication.Image = Resources.tabuadaTodas;
         }
 
         private void tbTabuada_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if ((!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar)) || (tbTabuada.Text.Length == 0 && e.KeyChar == '0'))
+            if ((!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar)) || (tbMultiplication.Text.Length == 0 && e.KeyChar == '0'))
                 e.Handled = true;
         }
 
@@ -173,7 +180,7 @@ namespace Multiplication_Championship
                 List<AwardData> awardList = AwardController.GetAllAwardsData();
                 AwardData award = awardList.Find(award => award.Id == (string)lvwAwards.SelectedItems[0].Tag);
 
-                MessageBox.Show(award.Description, Application.ProductName, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show(award.Description, Resources.appName, MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                 lvwAwards.SelectedItems.Clear();
             }
@@ -195,27 +202,36 @@ namespace Multiplication_Championship
 
         private int tab = 0, problemResult = 0, problemN = 0, timeTick = 0;
         private bool startMode = false, onVerifyProcess = false;
-        private Dictionary<int, List<int>> tabCombinations = new();
+        private readonly Dictionary<int, List<int>> tabCombinations = new();
 
         private void btnStart_Click(object sender, EventArgs e)
         {
-            if (cbbTabuada.SelectedItem.ToString() == "Outra" && tbTabuada.Text.Length == 0)
+            if (cbbMultiplication.SelectedIndex == 9)
             {
-                MessageBox.Show("Tens de inserir uma tabuada na caixa de texto!", Application.ProductName, MessageBoxButtons.OK, MessageBoxIcon.Information);
-                tbTabuada.Focus();
-                return;
-            }
-
-            if (cbbTabuada.SelectedItem.ToString() == "Outra" && Convert.ToInt32(tbTabuada.Text) == 0)
-            {
-                MessageBox.Show("Acho que devias saber que qualquer número a multiplicar por 0 é sempre 0...", Application.ProductName, MessageBoxButtons.OK, MessageBoxIcon.Information);
-                tbTabuada.Clear();
-                tbTabuada.Focus();
-                return;
+                if (tbMultiplication.Text.Length == 0)
+                {
+                    MessageBox.Show(resources.GetString("noMultiplicationMessage"), Resources.appName, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    tbMultiplication.Focus();
+                    return;
+                }
+                else if (!int.TryParse(tbMultiplication.Text, out int tabCheck))
+                {
+                    MessageBox.Show(resources.GetString("noNumberMessage"), Resources.appName, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    tbMultiplication.Clear();
+                    tbMultiplication.Focus();
+                    return;
+                }
+                else if (tabCheck == 0)
+                {
+                    MessageBox.Show(resources.GetString("noZeroMessage"), Resources.appName, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    tbMultiplication.Clear();
+                    tbMultiplication.Focus();
+                    return;
+                }
             }
 
             tcPages.SelectedIndex = 1;
-            lblProblemN.Text = "0 / " + nudQtd.Value;
+            lblProblemN.Text = "0 / " + nudQty.Value;
             lblTime.Text = "00:00";
             lblCorrect.Text = "0";
             lblWrong.Text = "0";
@@ -226,7 +242,7 @@ namespace Multiplication_Championship
             tbAnswer.Visible = false;
             startMode = true;
 
-            tab = Convert.ToInt32(cbbTabuada.SelectedItem.ToString() == "Outra" ? tbTabuada.Text : (cbbTabuada.SelectedItem.ToString() == "Todas" ? "-1" : cbbTabuada.SelectedItem.ToString()));
+            tab = Convert.ToInt32(cbbMultiplication.SelectedIndex == 9 ? tbMultiplication.Text : (cbbMultiplication.SelectedIndex == 10 ? "-1" : cbbMultiplication.SelectedItem.ToString()));
 
             BuildTabCombinations();
         }
@@ -292,7 +308,7 @@ namespace Multiplication_Championship
             if (tabCombinations.Count == 0)
                 BuildTabCombinations();
 
-            if (problemN == nudQtd.Value)
+            if (problemN == nudQty.Value)
             {
                 EndGame();
                 return;
@@ -310,7 +326,7 @@ namespace Multiplication_Championship
             if (tabCombinations.ElementAt(random1).Value.Count == 0)
                 tabCombinations.Remove(tabCombinations.ElementAt(random1).Key);
 
-            lblProblemN.Text = ++problemN + " / " + nudQtd.Value;
+            lblProblemN.Text = ++problemN + " / " + nudQty.Value;
             tbAnswer.ForeColor = Color.Black;
             tbAnswer.Clear();
             tbAnswer.Focus();
@@ -351,7 +367,7 @@ namespace Multiplication_Championship
                 }
 
                 tTime.Enabled = false;
-                pgbCompletition.Value = Convert.ToInt32(problemN * 100 / nudQtd.Value);
+                pgbCompletition.Value = Convert.ToInt32(problemN * 100 / nudQty.Value);
                 await Task.Delay(1000);
                 tTime.Enabled = true;
                 onVerifyProcess = false;
@@ -367,15 +383,15 @@ namespace Multiplication_Championship
             tcPages.SelectedIndex = 0;
             tTime.Enabled = false;
 
-            if (Convert.ToInt32(lblCorrect.Text) >= nudQtd.Value * 0.8m)
+            if (Convert.ToInt32(lblCorrect.Text) >= nudQty.Value * 0.8m)
             {
-                pbWinLose.Image = Properties.Resources.win;
-                lblNoGameInfo.Text = "Boa, conseguiste acertar um bom número de tabuadas. Continua assim!";
+                pbWinLose.Image = Resources.win;
+                lblNoGameInfo.Text = resources.GetString("winMessage");
             }
             else
             {
-                pbWinLose.Image = Properties.Resources.sad;
-                lblNoGameInfo.Text = "Estás a precisar de praticar. Estuda um bocado e volta a tentar!";
+                pbWinLose.Image = Resources.sad;
+                lblNoGameInfo.Text = resources.GetString("loseMessage");
             }
 
             AwardController.CheckForWonAward(ref classObject, new AwardDiscriminator
@@ -383,7 +399,7 @@ namespace Multiplication_Championship
                 correct = Convert.ToInt32(lblCorrect.Text),
                 wrong = Convert.ToInt32(lblWrong.Text),
                 tab = tab,
-                qtd = nudQtd.Value,
+                qtd = nudQty.Value,
                 min = nudMin.Value,
                 max = nudMax.Value,
                 shuffle = cbShuffle.Checked,

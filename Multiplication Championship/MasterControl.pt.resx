@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-  <!--
+  <!-- 
     Microsoft ResX Schema 
-
+    
     Version 2.0
-
-    The primary goals of this format is to allow a simple XML format
-    that is mostly human readable. The generation and parsing of the
-    various data types are done through the TypeConverter classes
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
     associated with the data types.
-
+    
     Example:
-
+    
     ... ado.net/XML headers & schema ...
     <resheader name="resmimetype">text/microsoft-resx</resheader>
     <resheader name="version">2.0</resheader>
@@ -26,36 +26,36 @@
         <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
         <comment>This is a comment</comment>
     </data>
-
-    There are any number of "resheader" rows that contain simple
+                
+    There are any number of "resheader" rows that contain simple 
     name/value pairs.
-
-    Each data row contains a name, and value. The row also contains a
-    type or mimetype. Type corresponds to a .NET class that support
-    text/value conversion through the TypeConverter architecture.
-    Classes that don't support this are serialized and stored with the
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
     mimetype set.
-
-    The mimetype is used for serialized objects, and tells the
-    ResXResourceReader how to depersist the object. This is currently not
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
     extensible. For a given mimetype the value must be set accordingly:
-
-    Note - application/x-microsoft.net.object.binary.base64 is the format
-    that the ResXResourceWriter will generate, however the reader can
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
     read any of the formats listed below.
-
+    
     mimetype: application/x-microsoft.net.object.binary.base64
-    value   : The object must be serialized with
+    value   : The object must be serialized with 
             : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
             : and then encoded with base64 encoding.
     
     mimetype: application/x-microsoft.net.object.soap.base64
-    value   : The object must be serialized with
+    value   : The object must be serialized with 
             : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
             : and then encoded with base64 encoding.
 
     mimetype: application/x-microsoft.net.object.bytearray.base64
-    value   : The object must be serialized into a byte array
+    value   : The object must be serialized into a byte array 
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
@@ -117,78 +117,46 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="btnGood.Location" type="System.Drawing.Point, System.Drawing">
-    <value>367, 59</value>
+  <data name="btnPoints.Text" xml:space="preserve">
+    <value>Reiniciar registo de corretas/erradas</value>
   </data>
-  <data name="btnGood.Text" xml:space="preserve">
-    <value>Boa!</value>
+  <data name="btnPoints.ToolTip" xml:space="preserve">
+    <value>Reinicia as contagens de perguntas corretas e erradas</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="lblTitle.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="btnAwards.Text" xml:space="preserve">
+    <value>Remover todas as medalhas</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>460, 102</value>
+  <data name="btnAwards.ToolTip" xml:space="preserve">
+    <value>Remove todas as medalhas obtidas</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterParent</value>
+  <data name="btnShuffle.Text" xml:space="preserve">
+    <value>Sempre aleatório</value>
   </data>
-  <data name="lblTitle.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 11.25pt, style=Bold</value>
+  <data name="btnShuffle.ToolTip" xml:space="preserve">
+    <value>Força todos os jogos a usarem a opção aleatório</value>
   </data>
-  <data name="&gt;&gt;lblTitle.Name" xml:space="preserve">
-    <value>lblTitle</value>
+  <data name="btnComutative.Text" xml:space="preserve">
+    <value>Sempre comutativa</value>
   </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pbIcon.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>WonAward</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>7, 15</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Congratulations!</value>
-  </data>
-  <data name="btnGood.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;pbIcon.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblTitle.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblTitle.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="lblTitle.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;pbIcon.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="lblText.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;lblText.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;btnGood.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblText.Name" xml:space="preserve">
-    <value>lblText</value>
+  <data name="btnComutative.ToolTip" xml:space="preserve">
+    <value>Força todos os jogos a usarem a opção comutativa</value>
   </data>
   <data name="lblTitle.Text" xml:space="preserve">
-    <value>Congratulations!</value>
+    <value>Controlo Mestre</value>
   </data>
+  <data name="lblTitle.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnDestroy.Text" xml:space="preserve">
+    <value>Remover completamente o registo!</value>
+  </data>
+  <data name="btnDestroy.ToolTip" xml:space="preserve">
+    <value>Remove todos os dados e configurações da aplicação</value>
+  </data>
+  <data name="btnBack.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAQAQEAAAAEAIAAoQAAARgAAACAgAAABACAAKBAAAG5AAAAYGAAAAQAgACgJAACWUAAAEBAAAAEA
@@ -743,58 +711,28 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 </value>
   </data>
-  <data name="&gt;&gt;pbIcon.Name" xml:space="preserve">
-    <value>pbIcon</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Controlo Mestre</value>
   </data>
-  <data name="&gt;&gt;lblTitle.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
   </data>
-  <data name="lblText.Size" type="System.Drawing.Size, System.Drawing">
-    <value>236, 30</value>
+  <data name="awardsReset" xml:space="preserve">
+    <value>Tem a certeza que pretende remover todas as medalhas recebidas?
+Esta ação não pode ser desfeita!</value>
   </data>
-  <data name="pbIcon.Size" type="System.Drawing.Size, System.Drawing">
-    <value>60, 60</value>
+  <data name="destroyConfirm" xml:space="preserve">
+    <value>Tem a certeza que pretende remover completamente o registo? O mesmo inclui dados como o total de respostas certas e erradas, medalhas e definições do Master Control.
+Esta ação não pode ser desfeita!</value>
   </data>
-  <data name="pbIcon.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="destroyMessage" xml:space="preserve">
+    <value>O registo foi apagado com sucesso, a aplicação vai agora reiniciar.</value>
   </data>
-  <data name="&gt;&gt;lblText.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="pointsReset" xml:space="preserve">
+    <value>Tem a certeza que pretende reiniciar o registo de respostas corretas e erradas?
+Esta ação não pode ser desfeita!</value>
   </data>
-  <data name="lblTitle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>78, 20</value>
+  <data name="uninitializedMessage" xml:space="preserve">
+    <value>O modo aprendiz deve ser aberto pelo menos 1 vez antes de tentar abrir o Controlo Mestre. Por favor inicie no modo aprendiz.</value>
   </data>
-  <data name="lblTitle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>99, 24</value>
-  </data>
-  <data name="&gt;&gt;btnGood.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;lblText.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btnGood.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="pbIcon.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="&gt;&gt;btnGood.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="lblText.Location" type="System.Drawing.Point, System.Drawing">
-    <value>100, 50</value>
-  </data>
-  <data name="lblText.Text" xml:space="preserve">
-    <value>Congratulations, you won a medal! You can check it out later on the awards menu.</value>
-  </data>
-  <data name="pbIcon.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 22</value>
-  </data>
-  <data name="&gt;&gt;btnGood.Name" xml:space="preserve">
-    <value>btnGood</value>
-  </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
 </root>

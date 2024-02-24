@@ -1,7 +1,9 @@
-﻿using System;
+﻿using Multiplication_Championship.Properties;
+using System;
 using System.Drawing;
 using System.IO;
 using System.Reflection;
+using System.Resources;
 using System.Text.Json;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -12,6 +14,7 @@ namespace Multiplication_Championship
     {
         public string path = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "\\" + Application.ProductName + "\\data.json";
         public bool goBack = false;
+        private readonly ResourceManager resources = new(typeof(MasterControl));
 
         public MasterControl()
         {
@@ -22,7 +25,7 @@ namespace Multiplication_Championship
         {
             if (new FileInfo(path).Exists == false)
             {
-                MessageBox.Show("O modo aprendiz deve ser aberto pelo menos 1 vez antes de tentar abrir o Controlo Mestre. Por favor inicie no modo aprendiz.", Application.ProductName, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(resources.GetString("uninitializedMessage"), Resources.appName, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 goBack = true;
                 Close();
             }
@@ -36,7 +39,7 @@ namespace Multiplication_Championship
 
         private async void btnPoints_Click(object sender, EventArgs e)
         {
-            DialogResult dialogResult = MessageBox.Show("Tem a certeza que pretende reiniciar o registo de respostas corretas e erradas?\nEsta ação não pode ser desfeita!", Application.ProductName, MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+            DialogResult dialogResult = MessageBox.Show(resources.GetString("pointsReset"), Resources.appName, MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
 
             if (dialogResult == DialogResult.Yes)
             {
@@ -49,7 +52,7 @@ namespace Multiplication_Championship
 
         private async void btnAwards_Click(object sender, EventArgs e)
         {
-            DialogResult dialogResult = MessageBox.Show("Tem a certeza que pretende remover todas as medalhas recebidas?\nEsta ação não pode ser desfeita!", Application.ProductName, MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+            DialogResult dialogResult = MessageBox.Show(resources.GetString("awardsReset"), Resources.appName, MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
 
             if (dialogResult == DialogResult.Yes)
             {
@@ -100,12 +103,12 @@ namespace Multiplication_Championship
 
         private void btnDestroy_Click(object sender, EventArgs e)
         {
-            DialogResult dialogResult = MessageBox.Show("Tem a certeza que pretende remover completamente o registo? O mesmo inclui dados como o total de respostas certas e erradas, medalhas e definições do Master Control.\nEsta ação não pode ser desfeita!", Application.ProductName, MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+            DialogResult dialogResult = MessageBox.Show(resources.GetString("destroyConfirm"), Resources.appName, MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
 
             if (dialogResult == DialogResult.Yes)
             {
                 new FileInfo(path).Delete();
-                MessageBox.Show("O registo foi apagado com sucesso, a aplicação vai agora reiniciar.", Application.ProductName, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show(resources.GetString("destroyMessage"), Resources.appName, MessageBoxButtons.OK, MessageBoxIcon.Information);
                 goBack = true;
                 Close();
             }

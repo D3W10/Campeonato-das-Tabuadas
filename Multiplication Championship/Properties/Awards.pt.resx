@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="A1" xml:space="preserve">
+    <value>Tabuada do 1 Concluída;Terminar a tabuada do 1 com todas as respostas certas e sem usar o aleatório nem o comutativo.
+
+Devem ser feitas pelo menos 10 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 10 questões.</value>
+  </data>
+  <data name="A1G" xml:space="preserve">
+    <value>Tabuada do 1 Conquistada;Terminar a tabuada do 1 com todas as respostas certas usando o aleatório e o comutativo.
+
+Devem ser feitas pelo menos 10 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 10 questões.</value>
+  </data>
+  <data name="A1R" xml:space="preserve">
+    <value>Tabuada do 1 Dominada;Terminar a tabuada do 1 com todas as respostas certas usando o aleatório e o comutativo. O tempo em segundos não pode ultrapassar o dobro das perguntas.
+
+Devem ser feitas pelo menos 10 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 10 questões.</value>
+  </data>
+  <data name="A2" xml:space="preserve">
+    <value>Tabuada do 2 Concluída;Terminar a tabuada do 2 com todas as respostas certas e sem usar o aleatório nem o comutativo.
+
+Devem ser feitas pelo menos 10 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 10 questões.</value>
+  </data>
+  <data name="A2G" xml:space="preserve">
+    <value>Tabuada do 2 Conquistada;Terminar a tabuada do 2 com todas as respostas certas usando o aleatório e o comutativo.
+
+Devem ser feitas pelo menos 10 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 10 questões.</value>
+  </data>
+  <data name="A2R" xml:space="preserve">
+    <value>Tabuada do 2 Dominada;Terminar a tabuada do 2 com todas as respostas certas usando o aleatório e o comutativo. O tempo em segundos não pode ultrapassar o dobro das perguntas.
+
+Devem ser feitas pelo menos 10 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 10 questões.</value>
+  </data>
+  <data name="A3" xml:space="preserve">
+    <value>Tabuada do 3 Concluída;Terminar a tabuada do 3 com todas as respostas certas e sem usar o aleatório nem o comutativo.
+
+Devem ser feitas pelo menos 10 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 10 questões.</value>
+  </data>
+  <data name="A3G" xml:space="preserve">
+    <value>Tabuada do 3 Conquistada;Terminar a tabuada do 3 com todas as respostas certas usando o aleatório e o comutativo.
+
+Devem ser feitas pelo menos 10 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 10 questões.</value>
+  </data>
+  <data name="A3R" xml:space="preserve">
+    <value>Tabuada do 3 Dominada;Terminar a tabuada do 3 com todas as respostas certas usando o aleatório e o comutativo. O tempo em segundos não pode ultrapassar o dobro das perguntas.
+
+Devem ser feitas pelo menos 10 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 10 questões.</value>
+  </data>
+  <data name="A4" xml:space="preserve">
+    <value>Tabuada do 4 Concluída;Terminar a tabuada do 4 com todas as respostas certas e sem usar o aleatório nem o comutativo.
+
+Devem ser feitas pelo menos 10 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 10 questões.</value>
+  </data>
+  <data name="A4G" xml:space="preserve">
+    <value>Tabuada do 4 Conquistada;Terminar a tabuada do 4 com todas as respostas certas usando o aleatório e o comutativo.
+
+Devem ser feitas pelo menos 10 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 10 questões.</value>
+  </data>
+  <data name="A4R" xml:space="preserve">
+    <value>Tabuada do 4 Dominada;Terminar a tabuada do 4 com todas as respostas certas usando o aleatório e o comutativo. O tempo em segundos não pode ultrapassar o dobro das perguntas.
+
+Devem ser feitas pelo menos 10 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 10 questões.</value>
+  </data>
+  <data name="A5" xml:space="preserve">
+    <value>Tabuada do 5 Concluída;Terminar a tabuada do 5 com todas as respostas certas e sem usar o aleatório nem o comutativo.
+
+Devem ser feitas pelo menos 10 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 10 questões.</value>
+  </data>
+  <data name="A5G" xml:space="preserve">
+    <value>Tabuada do 5 Conquistada;Terminar a tabuada do 5 com todas as respostas certas usando o aleatório e o comutativo.
+
+Devem ser feitas pelo menos 10 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 10 questões.</value>
+  </data>
+  <data name="A5R" xml:space="preserve">
+    <value>Tabuada do 5 Dominada;Terminar a tabuada do 5 com todas as respostas certas usando o aleatório e o comutativo. O tempo em segundos não pode ultrapassar o dobro das perguntas.
+
+Devem ser feitas pelo menos 10 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 10 questões.</value>
+  </data>
+  <data name="A6" xml:space="preserve">
+    <value>Tabuada do 6 Concluída;Terminar a tabuada do 6 com todas as respostas certas e sem usar o aleatório nem o comutativo.
+
+Devem ser feitas pelo menos 10 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 10 questões.</value>
+  </data>
+  <data name="A6G" xml:space="preserve">
+    <value>Tabuada do 6 Conquistada;Terminar a tabuada do 6 com todas as respostas certas usando o aleatório e o comutativo.
+
+Devem ser feitas pelo menos 10 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 10 questões.</value>
+  </data>
+  <data name="A6R" xml:space="preserve">
+    <value>Tabuada do 6 Dominada;Terminar a tabuada do 6 com todas as respostas certas usando o aleatório e o comutativo. O tempo em segundos não pode ultrapassar o dobro das perguntas.
+
+Devem ser feitas pelo menos 10 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 10 questões.</value>
+  </data>
+  <data name="A7" xml:space="preserve">
+    <value>Tabuada do 7 Concluída;Terminar a tabuada do 7 com todas as respostas certas e sem usar o aleatório nem o comutativo.
+
+Devem ser feitas pelo menos 10 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 10 questões.</value>
+  </data>
+  <data name="A7G" xml:space="preserve">
+    <value>Tabuada do 7 Conquistada;Terminar a tabuada do 7 com todas as respostas certas usando o aleatório e o comutativo.
+
+Devem ser feitas pelo menos 10 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 10 questões.</value>
+  </data>
+  <data name="A7R" xml:space="preserve">
+    <value>Tabuada do 7 Dominada;Terminar a tabuada do 7 com todas as respostas certas usando o aleatório e o comutativo. O tempo em segundos não pode ultrapassar o dobro das perguntas.
+
+Devem ser feitas pelo menos 10 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 10 questões.</value>
+  </data>
+  <data name="A8" xml:space="preserve">
+    <value>Tabuada do 8 Concluída;Terminar a tabuada do 8 com todas as respostas certas e sem usar o aleatório nem o comutativo.
+
+Devem ser feitas pelo menos 10 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 10 questões.</value>
+  </data>
+  <data name="A8G" xml:space="preserve">
+    <value>Tabuada do 8 Conquistada;Terminar a tabuada do 8 com todas as respostas certas usando o aleatório e o comutativo.
+
+Devem ser feitas pelo menos 10 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 10 questões.</value>
+  </data>
+  <data name="A8R" xml:space="preserve">
+    <value>Tabuada do 8 Dominada;Terminar a tabuada do 8 com todas as respostas certas usando o aleatório e o comutativo. O tempo em segundos não pode ultrapassar o dobro das perguntas.
+
+Devem ser feitas pelo menos 10 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 10 questões.</value>
+  </data>
+  <data name="A9" xml:space="preserve">
+    <value>Tabuada do 9 Concluída;Terminar a tabuada do 9 com todas as respostas certas e sem usar o aleatório nem o comutativo.
+
+Devem ser feitas pelo menos 10 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 10 questões.</value>
+  </data>
+  <data name="A9G" xml:space="preserve">
+    <value>Tabuada do 9 Conquistada;Terminar a tabuada do 9 com todas as respostas certas usando o aleatório e o comutativo.
+
+Devem ser feitas pelo menos 10 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 10 questões.</value>
+  </data>
+  <data name="A9R" xml:space="preserve">
+    <value>Tabuada do 9 Dominada;Terminar a tabuada do 9 com todas as respostas certas usando o aleatório e o comutativo. O tempo em segundos não pode ultrapassar o dobro das perguntas.
+
+Devem ser feitas pelo menos 10 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 10 questões.</value>
+  </data>
+  <data name="AX" xml:space="preserve">
+    <value>Outra Tabuada Concluída;Terminar qualquer outra tabuada com todas as respostas certas e sem usar o aleatório nem o comutativo.
+
+Devem ser feitas pelo menos 10 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 10 questões.</value>
+  </data>
+  <data name="AXG" xml:space="preserve">
+    <value>Outra Tabuada Conquistada;Terminar qualquer outra tabuada com todas as respostas certas usando o aleatório e o comutativo.
+
+Devem ser feitas pelo menos 10 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 10 questões.</value>
+  </data>
+  <data name="AXR" xml:space="preserve">
+    <value>Outra Tabuada Dominada;Terminar qualquer outra tabuada com todas as respostas certas usando o aleatório e o comutativo. O tempo em segundos não pode ultrapassar o dobro das perguntas.
+
+Devem ser feitas pelo menos 10 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 10 questões.</value>
+  </data>
+  <data name="C100" xml:space="preserve">
+    <value>100 Respostas Certas;Obter 100 respostas corretas no total.
+
+A contagem de respostas certas prevalece entre jogos.</value>
+  </data>
+  <data name="C1000" xml:space="preserve">
+    <value>300 Respostas Certas;Obter 300 respostas corretas no total.
+
+A contagem de respostas certas prevalece entre jogos.</value>
+  </data>
+  <data name="C300" xml:space="preserve">
+    <value>1000 Respostas Certas;Obter 1000 respostas corretas no total.
+
+A contagem de respostas certas prevalece entre jogos.</value>
+  </data>
+  <data name="F1" xml:space="preserve">
+    <value>Desafio Final Magnífico;Terminar uma ronda no modo "Todas" com todas as respostas certas.
+
+Devem ser feitas pelo menos 10 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 10 questões.</value>
+  </data>
+  <data name="F2" xml:space="preserve">
+    <value>Desafio Final Majestoso;Terminar uma ronda no modo "Todas" com todas as respostas certas e demorando 30 segundos ou menos.
+
+Devem ser feitas pelo menos 10 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 10 questões.</value>
+  </data>
+  <data name="F3" xml:space="preserve">
+    <value>Desafio Final Imponente;Terminar uma ronda no modo "Todas" com todas as respostas certas, usando o aleatório e o comutativo e demorando 1 minuto ou menos.
+
+Devem ser feitas pelo menos 20 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 20 questões.</value>
+  </data>
+  <data name="F4" xml:space="preserve">
+    <value>Desafio Final Deslumbrante;Terminar uma ronda no modo "Todas" com todas as respostas certas, usando o aleatório e o comutativo e demorando 1 minuto e 20 segundos ou menos.
+
+Devem ser feitas pelo menos 50 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 50 questões.</value>
+  </data>
+  <data name="T10" xml:space="preserve">
+    <value>Tempo 10 segundos;Terminar qualquer tabuada em 10 segundos ou menos com todas as respostas certas e usando o aleatório e o comutativo.
+
+Devem ser feitas pelo menos 10 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 10 questões.</value>
+  </data>
+  <data name="T30" xml:space="preserve">
+    <value>Tempo 30 segundos;Terminar qualquer tabuada em 30 segundos ou menos com todas as respostas certas e usando o aleatório e o comutativo.
+
+Devem ser feitas pelo menos 10 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 10 questões.</value>
+  </data>
+</root>

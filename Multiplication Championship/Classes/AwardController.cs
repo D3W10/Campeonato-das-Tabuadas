@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Reflection;
+using System.Resources;
 using System.Windows.Forms;
 
 namespace Multiplication_Championship.Classes
@@ -8,48 +10,14 @@ namespace Multiplication_Championship.Classes
     {
         public static List<AwardData> GetAllAwardsData()
         {
-            return new List<AwardData>()
-            {
-                new AwardData("A1", "Tabuada do 1 Concluída", "Terminar a tabuada do 1 com todas as respostas certas e sem usar o aleatório nem o comutativo.\n\nDevem ser feitas pelo menos 10 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 10 questões."),
-                new AwardData("A1G", "Tabuada do 1 Conquistada", "Terminar a tabuada do 1 com todas as respostas certas usando o aleatório e o comutativo.\n\nDevem ser feitas pelo menos 10 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 10 questões."),
-                new AwardData("A1R", "Tabuada do 1 Dominada", "Terminar a tabuada do 1 com todas as respostas certas usando o aleatório e o comutativo. O tempo em segundos não pode ultrapassar o dobro das perguntas.\n\nDevem ser feitas pelo menos 10 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 10 questões."),
-                new AwardData("A2", "Tabuada do 2 Concluída", "Terminar a tabuada do 2 com todas as respostas certas e sem usar o aleatório nem o comutativo.\n\nDevem ser feitas pelo menos 10 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 10 questões."),
-                new AwardData("A2G", "Tabuada do 2 Conquistada", "Terminar a tabuada do 2 com todas as respostas certas usando o aleatório e o comutativo.\n\nDevem ser feitas pelo menos 10 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 10 questões."),
-                new AwardData("A2R", "Tabuada do 2 Dominada", "Terminar a tabuada do 2 com todas as respostas certas usando o aleatório e o comutativo. O tempo em segundos não pode ultrapassar o dobro das perguntas.\n\nDevem ser feitas pelo menos 10 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 10 questões."),
-                new AwardData("A3", "Tabuada do 3 Concluída", "Terminar a tabuada do 3 com todas as respostas certas e sem usar o aleatório nem o comutativo.\n\nDevem ser feitas pelo menos 10 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 10 questões."),
-                new AwardData("A3G", "Tabuada do 3 Conquistada", "Terminar a tabuada do 3 com todas as respostas certas usando o aleatório e o comutativo.\n\nDevem ser feitas pelo menos 10 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 10 questões."),
-                new AwardData("A3R", "Tabuada do 3 Dominada", "Terminar a tabuada do 3 com todas as respostas certas usando o aleatório e o comutativo. O tempo em segundos não pode ultrapassar o dobro das perguntas.\n\nDevem ser feitas pelo menos 10 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 10 questões."),
-                new AwardData("A4", "Tabuada do 4 Concluída", "Terminar a tabuada do 4 com todas as respostas certas e sem usar o aleatório nem o comutativo.\n\nDevem ser feitas pelo menos 10 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 10 questões."),
-                new AwardData("A4G", "Tabuada do 4 Conquistada", "Terminar a tabuada do 4 com todas as respostas certas usando o aleatório e o comutativo.\n\nDevem ser feitas pelo menos 10 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 10 questões."),
-                new AwardData("A4R", "Tabuada do 4 Dominada", "Terminar a tabuada do 4 com todas as respostas certas usando o aleatório e o comutativo. O tempo em segundos não pode ultrapassar o dobro das perguntas.\n\nDevem ser feitas pelo menos 10 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 10 questões."),
-                new AwardData("A5", "Tabuada do 5 Concluída", "Terminar a tabuada do 5 com todas as respostas certas e sem usar o aleatório nem o comutativo.\n\nDevem ser feitas pelo menos 10 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 10 questões."),
-                new AwardData("A5G", "Tabuada do 5 Conquistada", "Terminar a tabuada do 5 com todas as respostas certas usando o aleatório e o comutativo.\n\nDevem ser feitas pelo menos 10 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 10 questões."),
-                new AwardData("A5R", "Tabuada do 5 Dominada", "Terminar a tabuada do 5 com todas as respostas certas usando o aleatório e o comutativo. O tempo em segundos não pode ultrapassar o dobro das perguntas.\n\nDevem ser feitas pelo menos 10 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 10 questões."),
-                new AwardData("A6", "Tabuada do 6 Concluída", "Terminar a tabuada do 6 com todas as respostas certas e sem usar o aleatório nem o comutativo.\n\nDevem ser feitas pelo menos 10 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 10 questões."),
-                new AwardData("A6G", "Tabuada do 6 Conquistada", "Terminar a tabuada do 6 com todas as respostas certas usando o aleatório e o comutativo.\n\nDevem ser feitas pelo menos 10 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 10 questões."),
-                new AwardData("A6R", "Tabuada do 6 Dominada", "Terminar a tabuada do 6 com todas as respostas certas usando o aleatório e o comutativo. O tempo em segundos não pode ultrapassar o dobro das perguntas.\n\nDevem ser feitas pelo menos 10 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 10 questões."),
-                new AwardData("A7", "Tabuada do 7 Concluída", "Terminar a tabuada do 7 com todas as respostas certas e sem usar o aleatório nem o comutativo.\n\nDevem ser feitas pelo menos 10 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 10 questões."),
-                new AwardData("A7G", "Tabuada do 7 Conquistada", "Terminar a tabuada do 7 com todas as respostas certas usando o aleatório e o comutativo.\n\nDevem ser feitas pelo menos 10 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 10 questões."),
-                new AwardData("A7R", "Tabuada do 7 Dominada", "Terminar a tabuada do 7 com todas as respostas certas usando o aleatório e o comutativo. O tempo em segundos não pode ultrapassar o dobro das perguntas.\n\nDevem ser feitas pelo menos 10 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 10 questões."),
-                new AwardData("A8", "Tabuada do 8 Concluída", "Terminar a tabuada do 8 com todas as respostas certas e sem usar o aleatório nem o comutativo.\n\nDevem ser feitas pelo menos 10 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 10 questões."),
-                new AwardData("A8G", "Tabuada do 8 Conquistada", "Terminar a tabuada do 8 com todas as respostas certas usando o aleatório e o comutativo.\n\nDevem ser feitas pelo menos 10 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 10 questões."),
-                new AwardData("A8R", "Tabuada do 8 Dominada", "Terminar a tabuada do 8 com todas as respostas certas usando o aleatório e o comutativo. O tempo em segundos não pode ultrapassar o dobro das perguntas.\n\nDevem ser feitas pelo menos 10 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 10 questões."),
-                new AwardData("A9", "Tabuada do 9 Concluída", "Terminar a tabuada do 9 com todas as respostas certas e sem usar o aleatório nem o comutativo.\n\nDevem ser feitas pelo menos 10 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 10 questões."),
-                new AwardData("A9G", "Tabuada do 9 Conquistada", "Terminar a tabuada do 9 com todas as respostas certas usando o aleatório e o comutativo.\n\nDevem ser feitas pelo menos 10 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 10 questões."),
-                new AwardData("A9R", "Tabuada do 9 Dominada", "Terminar a tabuada do 9 com todas as respostas certas usando o aleatório e o comutativo. O tempo em segundos não pode ultrapassar o dobro das perguntas.\n\nDevem ser feitas pelo menos 10 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 10 questões."),
-                new AwardData("AX", "Outra Tabuada Concluída", "Terminar qualquer outra tabuada com todas as respostas certas e sem usar o aleatório nem o comutativo.\n\nDevem ser feitas pelo menos 10 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 10 questões."),
-                new AwardData("AXG", "Outra Tabuada Conquistada", "Terminar qualquer outra tabuada com todas as respostas certas usando o aleatório e o comutativo.\n\nDevem ser feitas pelo menos 10 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 10 questões."),
-                new AwardData("AXR", "Outra Tabuada Dominada", "Terminar qualquer outra tabuada com todas as respostas certas usando o aleatório e o comutativo. O tempo em segundos não pode ultrapassar o dobro das perguntas.\n\nDevem ser feitas pelo menos 10 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 10 questões."),
-                new AwardData("C100", "100 Respostas Certas", "Acertar 100 vezes no total na resposta às tabuadas.\n\nA contagem de respostas certas prevalece entre jogos."),
-                new AwardData("C300", "300 Respostas Certas", "Acertar 300 vezes no total na resposta às tabuadas.\n\nA contagem de respostas certas prevalece entre jogos."),
-                new AwardData("C1000", "1000 Respostas Certas", "Acertar 1000 vezes no total na resposta às tabuadas.\n\nA contagem de respostas certas prevalece entre jogos."),
-                new AwardData("T30", "Tempo 30 segundos", "Terminar qualquer tabuada em 30 segundos ou menos com todas as respostas certas e usando o aleatório e o comutativo.\n\nDevem ser feitas pelo menos 10 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 10 questões."),
-                new AwardData("T10", "Tempo 10 segundos", "Terminar qualquer tabuada em 10 segundos ou menos com todas as respostas certas e usando o aleatório e o comutativo.\n\nDevem ser feitas pelo menos 10 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 10 questões."),
-                new AwardData("F1", "Desafio Final Magnífico", "Terminar uma ronda no modo \"Todas\" com todas as respostas certas.\n\nDevem ser feitas pelo menos 10 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 10 questões."),
-                new AwardData("F2", "Desafio Final Majestoso", "Terminar uma ronda no modo \"Todas\" com todas as respostas certas e em menos de 30 segundos.\n\nDevem ser feitas pelo menos 10 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 10 questões."),
-                new AwardData("F3", "Desafio Final Imponente", "Terminar uma ronda no modo \"Todas\" com todas as respostas certas, usando o aleatório e o comutativo e em menos de 1 minuto.\n\nDevem ser feitas pelo menos 20 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 20 questões."),
-                new AwardData("F4", "Desafio Final Deslumbrante", "Terminar uma ronda no modo \"Todas\" com todas as respostas certas, usando o aleatório e o comutativo e em menos de 1 minuto e 20 segundos.\n\nDevem ser feitas pelo menos 50 questões e o valor mínimo deve ser maior que 0 se forem selecionadas 50 questões.")
-            };
+            string[] awardIds = { "A1", "A1G", "A1R", "A2", "A2G", "A2R", "A3", "A3G", "A3R", "A4", "A4G", "A4R", "A5", "A5G", "A5R", "A6", "A6G", "A6R", "A7", "A7G", "A7R", "A8", "A8G", "A8R", "A9", "A9G", "A9R", "AX", "AXG", "AXR", "C100", "C300", "C1000", "T30", "T10", "F1", "F2", "F3", "F4" };
+            List<AwardData> list = new();
+            ResourceManager resources = new("Multiplication_Championship.Properties.Awards", Assembly.GetExecutingAssembly());
+
+            foreach (string id in awardIds)
+                list.Add(new(id, resources.GetString(id).Split(';')[0], resources.GetString(id).Split(';')[1]));
+
+            return list;
         }
 
         public static void CheckForWonAward(ref JSONFormat obj, AwardDiscriminator info, ref ImageList imageList)

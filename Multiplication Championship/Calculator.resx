@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-  <!-- 
+  <!--
     Microsoft ResX Schema 
-    
+
     Version 2.0
-    
-    The primary goals of this format is to allow a simple XML format 
-    that is mostly human readable. The generation and parsing of the 
-    various data types are done through the TypeConverter classes 
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
     associated with the data types.
-    
+
     Example:
-    
+
     ... ado.net/XML headers & schema ...
     <resheader name="resmimetype">text/microsoft-resx</resheader>
     <resheader name="version">2.0</resheader>
@@ -26,36 +26,36 @@
         <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
         <comment>This is a comment</comment>
     </data>
-                
-    There are any number of "resheader" rows that contain simple 
+
+    There are any number of "resheader" rows that contain simple
     name/value pairs.
-    
-    Each data row contains a name, and value. The row also contains a 
-    type or mimetype. Type corresponds to a .NET class that support 
-    text/value conversion through the TypeConverter architecture. 
-    Classes that don't support this are serialized and stored with the 
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
     mimetype set.
-    
-    The mimetype is used for serialized objects, and tells the 
-    ResXResourceReader how to depersist the object. This is currently not 
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
     extensible. For a given mimetype the value must be set accordingly:
-    
-    Note - application/x-microsoft.net.object.binary.base64 is the format 
-    that the ResXResourceWriter will generate, however the reader can 
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
     read any of the formats listed below.
-    
+
     mimetype: application/x-microsoft.net.object.binary.base64
-    value   : The object must be serialized with 
+    value   : The object must be serialized with
             : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
             : and then encoded with base64 encoding.
     
     mimetype: application/x-microsoft.net.object.soap.base64
-    value   : The object must be serialized with 
+    value   : The object must be serialized with
             : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
             : and then encoded with base64 encoding.
 
     mimetype: application/x-microsoft.net.object.bytearray.base64
-    value   : The object must be serialized into a byte array 
+    value   : The object must be serialized into a byte array
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
@@ -117,35 +117,248 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="lblDisplay.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Right</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="lblDisplay.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnEquals.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="lblDisplay.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI Semibold, 25pt, style=Bold</value>
+  <data name="btnPeriod.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 50</value>
   </data>
-  <data name="lblDisplay.Location" type="System.Drawing.Point, System.Drawing">
-    <value>176, 3</value>
+  <data name="&gt;&gt;btnNum9.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="lblDisplay.Size" type="System.Drawing.Size, System.Drawing">
-    <value>39, 46</value>
+  <data name="&gt;&gt;btnNum6.Type" xml:space="preserve">
+    <value>Multiplication_Championship.Components.RoundedButton, Multiplication Championship, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="lblDisplay.TabIndex" type="System.Int32, mscorlib">
+  <data name="btnNum8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 138</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnNum8.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="btnNum2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;btnNum2.Type" xml:space="preserve">
+    <value>Multiplication_Championship.Components.RoundedButton, Multiplication Championship, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnPeriod.Name" xml:space="preserve">
+    <value>btnPeriod</value>
+  </data>
+  <data name="btnDivide.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="&gt;&gt;btnNum8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnPlusMinus.Name" xml:space="preserve">
+    <value>btnPlusMinus</value>
+  </data>
+  <data name="btnNum7.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btnDelete.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 82</value>
+  </data>
+  <data name="&gt;&gt;btnNum1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;btnDivide.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="lblDisplay.Text" xml:space="preserve">
+  <data name="btnNum4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 50</value>
+  </data>
+  <data name="&gt;&gt;btnNum8.Type" xml:space="preserve">
+    <value>Multiplication_Championship.Components.RoundedButton, Multiplication Championship, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnDivide.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 82</value>
+  </data>
+  <data name="&gt;&gt;tlpToRight.Name" xml:space="preserve">
+    <value>tlpToRight</value>
+  </data>
+  <data name="btnDivide.ToolTip" xml:space="preserve">
+    <value>Divide</value>
+  </data>
+  <data name="btnNum4.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="&gt;&gt;btnNum9.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="btnNum6.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;btnMinus.Type" xml:space="preserve">
+    <value>Multiplication_Championship.Components.RoundedButton, Multiplication Championship, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnDelete.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="&gt;&gt;btnEquals.Name" xml:space="preserve">
+    <value>btnEquals</value>
+  </data>
+  <data name="btnDelete.ToolTip" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="btnNum0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 307</value>
+  </data>
+  <data name="btnPlus.ToolTip" xml:space="preserve">
+    <value>Sum</value>
+  </data>
+  <data name="btnNum7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 138</value>
+  </data>
+  <data name="&gt;&gt;btnNum7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnNum2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 251</value>
+  </data>
+  <data name="btnPeriod.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;btnNum6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnEquals.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 307</value>
+  </data>
+  <data name="btnNum9.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="btnEquals.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 50</value>
+  </data>
+  <data name="&gt;&gt;btnDelete.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="btnNum6.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="btnPlusMinus.ToolTip" xml:space="preserve">
+    <value>Symmetric</value>
+  </data>
+  <data name="&gt;&gt;btnEquals.Type" xml:space="preserve">
+    <value>Multiplication_Championship.Components.RoundedButton, Multiplication Championship, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnClear.Type" xml:space="preserve">
+    <value>Multiplication_Championship.Components.RoundedButton, Multiplication Championship, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnMinus.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 15</value>
+  </data>
+  <data name="btnPlusMinus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 82</value>
+  </data>
+  <data name="&gt;&gt;btnPeriod.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnPlus.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btnDivide.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnDelete.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnNum1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 50</value>
+  </data>
+  <data name="btnDelete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 50</value>
+  </data>
+  <data name="btnNum9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 50</value>
+  </data>
+  <data name="btnTimes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 50</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Calculator</value>
+  </data>
+  <data name="btnMinus.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;btnNum0.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnNum0.Name" xml:space="preserve">
+    <value>btnNum0</value>
+  </data>
+  <data name="btnNum4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 194</value>
+  </data>
+  <data name="&gt;&gt;btnNum4.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="tlpToRight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>218, 52</value>
+  </data>
+  <data name="btnNum6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 50</value>
+  </data>
+  <data name="btnDivide.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btnDivide.Name" xml:space="preserve">
+    <value>btnDivide</value>
+  </data>
+  <data name="&gt;&gt;btnNum0.Type" xml:space="preserve">
+    <value>Multiplication_Championship.Components.RoundedButton, Multiplication Championship, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnNum3.Name" xml:space="preserve">
+    <value>btnNum3</value>
+  </data>
+  <data name="btnNum1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 251</value>
+  </data>
+  <data name="&gt;&gt;btnDelete.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tlpToRight.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnPlusMinus.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="tlpToRight.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="lblDisplay.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
+  <data name="btnNum1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
   </data>
-  <data name="&gt;&gt;lblDisplay.Name" xml:space="preserve">
-    <value>lblDisplay</value>
+  <data name="btnNum3.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="btnNum3.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;btnNum2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnNum2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 50</value>
+  </data>
+  <data name="&gt;&gt;btnPlusMinus.Type" xml:space="preserve">
+    <value>Multiplication_Championship.Components.RoundedButton, Multiplication Championship, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnNum9.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnPlus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 50</value>
+  </data>
+  <data name="&gt;&gt;btnMinus.Name" xml:space="preserve">
+    <value>btnMinus</value>
   </data>
   <data name="&gt;&gt;lblDisplay.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -153,593 +366,17 @@
   <data name="&gt;&gt;lblDisplay.Parent" xml:space="preserve">
     <value>tlpToRight</value>
   </data>
-  <data name="&gt;&gt;lblDisplay.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="tlpToRight.ColumnCount" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="tlpToRight.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 12</value>
-  </data>
-  <data name="tlpToRight.RowCount" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="tlpToRight.Size" type="System.Drawing.Size, System.Drawing">
-    <value>218, 52</value>
-  </data>
-  <data name="tlpToRight.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;tlpToRight.Name" xml:space="preserve">
-    <value>tlpToRight</value>
-  </data>
-  <data name="&gt;&gt;tlpToRight.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tlpToRight.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;tlpToRight.ZOrder" xml:space="preserve">
-    <value>19</value>
-  </data>
-  <data name="tlpToRight.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblDisplay" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="ttOperator.TrayLocation" type="System.Drawing.Point, System.Drawing">
-    <value>17, 17</value>
-  </data>
-  <data name="btnClear.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="btnClear.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="btnClear.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 82</value>
-  </data>
-  <data name="btnClear.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 50</value>
-  </data>
-  <data name="btnClear.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="btnClear.ToolTip" xml:space="preserve">
-    <value>Clear</value>
-  </data>
-  <data name="&gt;&gt;btnClear.Name" xml:space="preserve">
-    <value>btnClear</value>
-  </data>
-  <data name="&gt;&gt;btnClear.Type" xml:space="preserve">
-    <value>Multiplication_Championship.Components.RoundedButton, Multiplication Championship, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;btnClear.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btnClear.ZOrder" xml:space="preserve">
-    <value>18</value>
-  </data>
-  <data name="btnDelete.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="btnDelete.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="btnDelete.Location" type="System.Drawing.Point, System.Drawing">
-    <value>68, 82</value>
-  </data>
-  <data name="btnDelete.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 50</value>
-  </data>
-  <data name="btnDelete.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="btnDelete.ToolTip" xml:space="preserve">
-    <value>Delete</value>
-  </data>
-  <data name="&gt;&gt;btnDelete.Name" xml:space="preserve">
-    <value>btnDelete</value>
-  </data>
-  <data name="&gt;&gt;btnDelete.Type" xml:space="preserve">
-    <value>Multiplication_Championship.Components.RoundedButton, Multiplication Championship, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;btnDelete.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btnDelete.ZOrder" xml:space="preserve">
-    <value>17</value>
-  </data>
-  <data name="btnPlusMinus.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="btnPlusMinus.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="btnPlusMinus.Location" type="System.Drawing.Point, System.Drawing">
-    <value>124, 82</value>
-  </data>
-  <data name="btnPlusMinus.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 50</value>
-  </data>
-  <data name="btnPlusMinus.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="btnPlusMinus.ToolTip" xml:space="preserve">
-    <value>Symmetric</value>
-  </data>
-  <data name="&gt;&gt;btnPlusMinus.Name" xml:space="preserve">
-    <value>btnPlusMinus</value>
-  </data>
-  <data name="&gt;&gt;btnPlusMinus.Type" xml:space="preserve">
-    <value>Multiplication_Championship.Components.RoundedButton, Multiplication Championship, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;btnPlusMinus.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btnPlusMinus.ZOrder" xml:space="preserve">
-    <value>16</value>
-  </data>
-  <data name="btnNum7.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="btnNum7.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="btnNum7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 138</value>
-  </data>
-  <data name="btnNum7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 50</value>
-  </data>
-  <data name="btnNum7.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;btnNum7.Name" xml:space="preserve">
-    <value>btnNum7</value>
-  </data>
-  <data name="&gt;&gt;btnNum7.Type" xml:space="preserve">
-    <value>Multiplication_Championship.Components.RoundedButton, Multiplication Championship, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;btnNum7.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btnNum7.ZOrder" xml:space="preserve">
-    <value>15</value>
-  </data>
-  <data name="btnNum8.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="btnNum8.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="btnNum8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>68, 138</value>
-  </data>
-  <data name="btnNum8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 50</value>
-  </data>
-  <data name="btnNum8.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;btnNum8.Name" xml:space="preserve">
-    <value>btnNum8</value>
-  </data>
-  <data name="&gt;&gt;btnNum8.Type" xml:space="preserve">
-    <value>Multiplication_Championship.Components.RoundedButton, Multiplication Championship, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;btnNum8.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btnNum8.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <data name="btnNum9.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="btnNum9.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="btnNum9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>124, 138</value>
-  </data>
-  <data name="btnNum9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 50</value>
-  </data>
-  <data name="btnNum9.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;btnNum9.Name" xml:space="preserve">
-    <value>btnNum9</value>
-  </data>
-  <data name="&gt;&gt;btnNum9.Type" xml:space="preserve">
-    <value>Multiplication_Championship.Components.RoundedButton, Multiplication Championship, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;btnNum9.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btnNum9.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="btnTimes.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="btnTimes.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="btnTimes.Location" type="System.Drawing.Point, System.Drawing">
-    <value>180, 138</value>
-  </data>
-  <data name="btnTimes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 50</value>
-  </data>
-  <data name="btnTimes.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="btnTimes.ToolTip" xml:space="preserve">
-    <value>Times</value>
-  </data>
-  <data name="&gt;&gt;btnTimes.Name" xml:space="preserve">
-    <value>btnTimes</value>
-  </data>
-  <data name="&gt;&gt;btnTimes.Type" xml:space="preserve">
-    <value>Multiplication_Championship.Components.RoundedButton, Multiplication Championship, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;btnTimes.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btnTimes.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="btnNum4.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="btnNum4.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="btnNum4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 194</value>
-  </data>
-  <data name="btnNum4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 50</value>
-  </data>
-  <data name="btnNum4.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;btnNum4.Name" xml:space="preserve">
-    <value>btnNum4</value>
-  </data>
-  <data name="&gt;&gt;btnNum4.Type" xml:space="preserve">
-    <value>Multiplication_Championship.Components.RoundedButton, Multiplication Championship, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;btnNum4.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btnNum4.ZOrder" xml:space="preserve">
-    <value>11</value>
+  <data name="lblDisplay.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
   </data>
   <data name="btnNum5.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Zoom</value>
   </data>
-  <data name="btnNum5.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="btnNum5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>68, 195</value>
-  </data>
-  <data name="btnNum5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 50</value>
-  </data>
-  <data name="btnNum5.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;btnNum5.Name" xml:space="preserve">
-    <value>btnNum5</value>
-  </data>
-  <data name="&gt;&gt;btnNum5.Type" xml:space="preserve">
-    <value>Multiplication_Championship.Components.RoundedButton, Multiplication Championship, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;btnNum5.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btnNum5.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="btnNum6.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="btnNum6.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="btnNum6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>124, 194</value>
-  </data>
-  <data name="btnNum6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 50</value>
-  </data>
-  <data name="btnNum6.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;btnNum6.Name" xml:space="preserve">
-    <value>btnNum6</value>
-  </data>
-  <data name="&gt;&gt;btnNum6.Type" xml:space="preserve">
-    <value>Multiplication_Championship.Components.RoundedButton, Multiplication Championship, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;btnNum6.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btnNum6.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="btnMinus.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="btnMinus.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="btnMinus.Location" type="System.Drawing.Point, System.Drawing">
-    <value>180, 194</value>
-  </data>
-  <data name="btnMinus.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 50</value>
-  </data>
-  <data name="btnMinus.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="btnMinus.ToolTip" xml:space="preserve">
-    <value>Subtract</value>
-  </data>
-  <data name="&gt;&gt;btnMinus.Name" xml:space="preserve">
-    <value>btnMinus</value>
-  </data>
-  <data name="&gt;&gt;btnMinus.Type" xml:space="preserve">
-    <value>Multiplication_Championship.Components.RoundedButton, Multiplication Championship, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;btnMinus.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btnMinus.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="btnNum1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="btnNum1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="btnNum1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 251</value>
-  </data>
-  <data name="btnNum1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 50</value>
-  </data>
-  <data name="btnNum1.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;btnNum1.Name" xml:space="preserve">
-    <value>btnNum1</value>
-  </data>
-  <data name="&gt;&gt;btnNum1.Type" xml:space="preserve">
-    <value>Multiplication_Championship.Components.RoundedButton, Multiplication Championship, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;btnNum1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btnNum1.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="btnNum2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="btnNum2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="btnNum2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>68, 251</value>
-  </data>
-  <data name="btnNum2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 50</value>
-  </data>
-  <data name="btnNum2.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;btnNum2.Name" xml:space="preserve">
-    <value>btnNum2</value>
-  </data>
-  <data name="&gt;&gt;btnNum2.Type" xml:space="preserve">
-    <value>Multiplication_Championship.Components.RoundedButton, Multiplication Championship, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;btnNum2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btnNum2.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="btnNum3.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="btnNum3.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="btnNum3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>124, 251</value>
-  </data>
-  <data name="btnNum3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 50</value>
-  </data>
-  <data name="btnNum3.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="&gt;&gt;btnNum3.Name" xml:space="preserve">
-    <value>btnNum3</value>
-  </data>
-  <data name="&gt;&gt;btnNum3.Type" xml:space="preserve">
-    <value>Multiplication_Championship.Components.RoundedButton, Multiplication Championship, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;btnNum3.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="lblDisplay.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="&gt;&gt;btnNum3.ZOrder" xml:space="preserve">
     <value>5</value>
-  </data>
-  <data name="btnPlus.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="btnPlus.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="btnPlus.Location" type="System.Drawing.Point, System.Drawing">
-    <value>180, 251</value>
-  </data>
-  <data name="btnPlus.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 50</value>
-  </data>
-  <data name="btnPlus.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="btnPlus.ToolTip" xml:space="preserve">
-    <value>Sum</value>
-  </data>
-  <data name="&gt;&gt;btnPlus.Name" xml:space="preserve">
-    <value>btnPlus</value>
-  </data>
-  <data name="&gt;&gt;btnPlus.Type" xml:space="preserve">
-    <value>Multiplication_Championship.Components.RoundedButton, Multiplication Championship, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;btnPlus.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btnPlus.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="btnEquals.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="btnEquals.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="btnEquals.Location" type="System.Drawing.Point, System.Drawing">
-    <value>180, 307</value>
-  </data>
-  <data name="btnEquals.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 50</value>
-  </data>
-  <data name="btnEquals.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
-  </data>
-  <data name="btnEquals.ToolTip" xml:space="preserve">
-    <value>Equals</value>
-  </data>
-  <data name="&gt;&gt;btnEquals.Name" xml:space="preserve">
-    <value>btnEquals</value>
-  </data>
-  <data name="&gt;&gt;btnEquals.Type" xml:space="preserve">
-    <value>Multiplication_Championship.Components.RoundedButton, Multiplication Championship, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;btnEquals.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btnEquals.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="btnPeriod.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="btnPeriod.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="btnPeriod.Location" type="System.Drawing.Point, System.Drawing">
-    <value>124, 307</value>
-  </data>
-  <data name="btnPeriod.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 50</value>
-  </data>
-  <data name="btnPeriod.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="&gt;&gt;btnPeriod.Name" xml:space="preserve">
-    <value>btnPeriod</value>
-  </data>
-  <data name="&gt;&gt;btnPeriod.Type" xml:space="preserve">
-    <value>Multiplication_Championship.Components.RoundedButton, Multiplication Championship, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;btnPeriod.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btnPeriod.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="btnNum0.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="btnNum0.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="btnNum0.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 307</value>
-  </data>
-  <data name="btnNum0.Size" type="System.Drawing.Size, System.Drawing">
-    <value>106, 50</value>
-  </data>
-  <data name="btnNum0.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
-  </data>
-  <data name="&gt;&gt;btnNum0.Name" xml:space="preserve">
-    <value>btnNum0</value>
-  </data>
-  <data name="&gt;&gt;btnNum0.Type" xml:space="preserve">
-    <value>Multiplication_Championship.Components.RoundedButton, Multiplication Championship, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;btnNum0.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btnNum0.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="btnDivide.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="btnDivide.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="btnDivide.Location" type="System.Drawing.Point, System.Drawing">
-    <value>180, 82</value>
-  </data>
-  <data name="btnDivide.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 50</value>
-  </data>
-  <data name="btnDivide.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="btnDivide.ToolTip" xml:space="preserve">
-    <value>Divide</value>
-  </data>
-  <data name="&gt;&gt;btnDivide.Name" xml:space="preserve">
-    <value>btnDivide</value>
-  </data>
-  <data name="&gt;&gt;btnDivide.Type" xml:space="preserve">
-    <value>Multiplication_Championship.Components.RoundedButton, Multiplication Championship, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;btnDivide.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btnDivide.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="$this.Language" type="System.Globalization.CultureInfo, mscorlib">
-    <value>pt-PT</value>
-  </data>
-  <data name="$this.Localizable" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="$this.TrayHeight" type="System.Int32, mscorlib">
-    <value>56</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>7, 15</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>242, 369</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1295,19 +932,382 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 </value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Calculator</value>
+  <data name="btnPeriod.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;btnPlus.Type" xml:space="preserve">
+    <value>Multiplication_Championship.Components.RoundedButton, Multiplication Championship, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnDivide.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 50</value>
+  </data>
+  <data name="btnNum1.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;btnEquals.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btnTimes.Type" xml:space="preserve">
+    <value>Multiplication_Championship.Components.RoundedButton, Multiplication Championship, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnClear.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="lblDisplay.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnNum7.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="btnMinus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 194</value>
+  </data>
+  <data name="&gt;&gt;btnTimes.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;btnEquals.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnNum3.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;btnNum0.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnDivide.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;btnNum2.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;btnDivide.Type" xml:space="preserve">
+    <value>Multiplication_Championship.Components.RoundedButton, Multiplication Championship, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnClear.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;btnNum6.Name" xml:space="preserve">
+    <value>btnNum6</value>
+  </data>
+  <data name="btnMinus.ToolTip" xml:space="preserve">
+    <value>Subtract</value>
+  </data>
+  <data name="btnNum9.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="btnClear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 82</value>
+  </data>
+  <data name="btnPlusMinus.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;btnNum1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnNum9.Name" xml:space="preserve">
+    <value>btnNum9</value>
   </data>
   <data name="&gt;&gt;ttOperator.Name" xml:space="preserve">
     <value>ttOperator</value>
   </data>
-  <data name="&gt;&gt;ttOperator.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="lblDisplay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 46</value>
+  </data>
+  <data name="&gt;&gt;btnNum1.Name" xml:space="preserve">
+    <value>btnNum1</value>
+  </data>
+  <data name="btnNum1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnPlusMinus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 50</value>
+  </data>
+  <data name="&gt;&gt;btnNum2.Name" xml:space="preserve">
+    <value>btnNum2</value>
+  </data>
+  <data name="&gt;&gt;btnNum7.Type" xml:space="preserve">
+    <value>Multiplication_Championship.Components.RoundedButton, Multiplication Championship, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tlpToRight.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tlpToRight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="&gt;&gt;btnNum5.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;btnNum7.Name" xml:space="preserve">
+    <value>btnNum7</value>
+  </data>
+  <data name="&gt;&gt;btnNum4.Type" xml:space="preserve">
+    <value>Multiplication_Championship.Components.RoundedButton, Multiplication Championship, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnNum7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 50</value>
+  </data>
+  <data name="&gt;&gt;btnNum4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnNum3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>242, 369</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>Calculator</value>
   </data>
+  <data name="tlpToRight.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblDisplay" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;btnPeriod.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnNum8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 50</value>
+  </data>
+  <data name="&gt;&gt;btnTimes.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnClear.Name" xml:space="preserve">
+    <value>btnClear</value>
+  </data>
+  <data name="&gt;&gt;btnClear.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnMinus.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;btnPlusMinus.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnTimes.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="btnClear.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="&gt;&gt;lblDisplay.Name" xml:space="preserve">
+    <value>lblDisplay</value>
+  </data>
+  <data name="btnNum5.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;lblDisplay.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnNum4.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;btnPlus.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnPlusMinus.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="btnClear.ToolTip" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="btnTimes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 138</value>
+  </data>
+  <data name="&gt;&gt;btnNum6.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;btnNum9.Type" xml:space="preserve">
+    <value>Multiplication_Championship.Components.RoundedButton, Multiplication Championship, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnNum8.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="btnNum5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 195</value>
+  </data>
+  <data name="btnPlus.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="&gt;&gt;btnNum4.Name" xml:space="preserve">
+    <value>btnNum4</value>
+  </data>
+  <data name="btnPlus.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="lblDisplay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>176, 3</value>
+  </data>
+  <data name="&gt;&gt;ttOperator.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnPlus.Name" xml:space="preserve">
+    <value>btnPlus</value>
+  </data>
+  <data name="&gt;&gt;btnMinus.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblDisplay.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 25pt, style=Bold</value>
+  </data>
+  <data name="btnPlus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 251</value>
+  </data>
+  <data name="btnNum0.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnNum7.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="&gt;&gt;btnDelete.Type" xml:space="preserve">
+    <value>Multiplication_Championship.Components.RoundedButton, Multiplication Championship, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tlpToRight.ColumnCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnPlusMinus.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnTimes.ToolTip" xml:space="preserve">
+    <value>Times</value>
+  </data>
+  <data name="&gt;&gt;btnNum1.Type" xml:space="preserve">
+    <value>Multiplication_Championship.Components.RoundedButton, Multiplication Championship, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnEquals.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="btnClear.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnTimes.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;btnTimes.Name" xml:space="preserve">
+    <value>btnTimes</value>
+  </data>
+  <data name="btnPlus.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="btnNum7.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;btnNum3.Type" xml:space="preserve">
+    <value>Multiplication_Championship.Components.RoundedButton, Multiplication Championship, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnNum8.Name" xml:space="preserve">
+    <value>btnNum8</value>
+  </data>
+  <data name="btnNum8.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="btnNum4.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnPeriod.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 307</value>
+  </data>
+  <data name="lblDisplay.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;btnDelete.Name" xml:space="preserve">
+    <value>btnDelete</value>
+  </data>
+  <data name="btnNum2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="btnNum3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 50</value>
+  </data>
+  <data name="btnPeriod.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="btnEquals.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;tlpToRight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnNum3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 251</value>
+  </data>
+  <data name="btnNum2.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="btnNum8.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnNum6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 194</value>
+  </data>
+  <data name="btnNum0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 50</value>
+  </data>
+  <data name="btnNum5.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;tlpToRight.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="btnNum0.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="btnDelete.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnMinus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 50</value>
+  </data>
+  <data name="btnEquals.ToolTip" xml:space="preserve">
+    <value>Equals</value>
+  </data>
+  <data name="btnNum6.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;btnPeriod.Type" xml:space="preserve">
+    <value>Multiplication_Championship.Components.RoundedButton, Multiplication Championship, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lblDisplay.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnNum5.Name" xml:space="preserve">
+    <value>btnNum5</value>
+  </data>
+  <data name="btnClear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 50</value>
+  </data>
+  <data name="&gt;&gt;btnNum5.Type" xml:space="preserve">
+    <value>Multiplication_Championship.Components.RoundedButton, Multiplication Championship, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lblDisplay.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnNum5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="btnNum5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 50</value>
+  </data>
+  <data name="btnNum9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 138</value>
+  </data>
+  <data name="btnTimes.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;btnMinus.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="btnNum0.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>56</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ttOperator.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
 </root>

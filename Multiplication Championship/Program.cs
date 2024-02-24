@@ -11,26 +11,26 @@ namespace Multiplication_Championship
         [STAThread]
         static void Main()
         {
-            bool goBack = false;
-
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            
+            bool goBack;
 
             do
             {
                 goBack = false;
-                Welcome welcome = new Welcome();
+                Welcome welcome = new();
                 Application.Run(welcome);
-                if (welcome.logInType == "Aprendiz")
+                if (welcome.logInType == "Apprentice")
                 {
-                    Dashboard dashboard = new Dashboard();
+                    Dashboard dashboard = new();
                     Application.Run(dashboard);
                     goBack = dashboard.goBack;
                 }
-                else if (welcome.logInType == "Mestre")
+                else if (welcome.logInType == "Master")
                 {
-                    MasterControl masterControl = new MasterControl();
+                    MasterControl masterControl = new();
                     Application.Run(masterControl);
                     goBack = masterControl.goBack;
                 }

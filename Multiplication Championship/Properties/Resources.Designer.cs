@@ -22,7 +22,7 @@ namespace Multiplication_Championship.Properties {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resources {
+    public class Resources {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,7 +36,7 @@ namespace Multiplication_Championship.Properties {
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Multiplication_Championship.Properties.Resources", typeof(Resources).Assembly);
@@ -51,7 +51,7 @@ namespace Multiplication_Championship.Properties {
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -61,9 +61,18 @@ namespace Multiplication_Championship.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Multiplication Championship.
+        /// </summary>
+        public static string appName {
+            get {
+                return ResourceManager.GetString("appName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap awards {
+        public static System.Drawing.Bitmap awards {
             get {
                 object obj = ResourceManager.GetObject("awards", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -73,7 +82,7 @@ namespace Multiplication_Championship.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap back {
+        public static System.Drawing.Bitmap back {
             get {
                 object obj = ResourceManager.GetObject("back", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -83,7 +92,7 @@ namespace Multiplication_Championship.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap book {
+        public static System.Drawing.Bitmap book {
             get {
                 object obj = ResourceManager.GetObject("book", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -93,7 +102,7 @@ namespace Multiplication_Championship.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap btn0 {
+        public static System.Drawing.Bitmap btn0 {
             get {
                 object obj = ResourceManager.GetObject("btn0", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -103,7 +112,7 @@ namespace Multiplication_Championship.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap calculator {
+        public static System.Drawing.Bitmap calculator {
             get {
                 object obj = ResourceManager.GetObject("calculator", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -113,7 +122,7 @@ namespace Multiplication_Championship.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap clear {
+        public static System.Drawing.Bitmap clear {
             get {
                 object obj = ResourceManager.GetObject("clear", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -123,7 +132,7 @@ namespace Multiplication_Championship.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap correct {
+        public static System.Drawing.Bitmap correct {
             get {
                 object obj = ResourceManager.GetObject("correct", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -133,7 +142,7 @@ namespace Multiplication_Championship.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap delete {
+        public static System.Drawing.Bitmap delete {
             get {
                 object obj = ResourceManager.GetObject("delete", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -143,7 +152,7 @@ namespace Multiplication_Championship.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap divide {
+        public static System.Drawing.Bitmap divide {
             get {
                 object obj = ResourceManager.GetObject("divide", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -151,9 +160,18 @@ namespace Multiplication_Championship.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to multiplicationmaster.
+        /// </summary>
+        public static string masterPassword {
+            get {
+                return ResourceManager.GetString("masterPassword", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap minus {
+        public static System.Drawing.Bitmap minus {
             get {
                 object obj = ResourceManager.GetObject("minus", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -163,7 +181,7 @@ namespace Multiplication_Championship.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap period {
+        public static System.Drawing.Bitmap period {
             get {
                 object obj = ResourceManager.GetObject("period", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -173,7 +191,7 @@ namespace Multiplication_Championship.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap plus {
+        public static System.Drawing.Bitmap plus {
             get {
                 object obj = ResourceManager.GetObject("plus", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -183,7 +201,7 @@ namespace Multiplication_Championship.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap plusMinus {
+        public static System.Drawing.Bitmap plusMinus {
             get {
                 object obj = ResourceManager.GetObject("plusMinus", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -193,7 +211,7 @@ namespace Multiplication_Championship.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap result {
+        public static System.Drawing.Bitmap result {
             get {
                 object obj = ResourceManager.GetObject("result", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -203,7 +221,7 @@ namespace Multiplication_Championship.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap sad {
+        public static System.Drawing.Bitmap sad {
             get {
                 object obj = ResourceManager.GetObject("sad", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -213,7 +231,7 @@ namespace Multiplication_Championship.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap settings {
+        public static System.Drawing.Bitmap settings {
             get {
                 object obj = ResourceManager.GetObject("settings", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -223,7 +241,7 @@ namespace Multiplication_Championship.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap tabuada1 {
+        public static System.Drawing.Bitmap tabuada1 {
             get {
                 object obj = ResourceManager.GetObject("tabuada1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -233,7 +251,7 @@ namespace Multiplication_Championship.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap tabuada2 {
+        public static System.Drawing.Bitmap tabuada2 {
             get {
                 object obj = ResourceManager.GetObject("tabuada2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -243,7 +261,7 @@ namespace Multiplication_Championship.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap tabuada3 {
+        public static System.Drawing.Bitmap tabuada3 {
             get {
                 object obj = ResourceManager.GetObject("tabuada3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -253,7 +271,7 @@ namespace Multiplication_Championship.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap tabuada4 {
+        public static System.Drawing.Bitmap tabuada4 {
             get {
                 object obj = ResourceManager.GetObject("tabuada4", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -263,7 +281,7 @@ namespace Multiplication_Championship.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap tabuada5 {
+        public static System.Drawing.Bitmap tabuada5 {
             get {
                 object obj = ResourceManager.GetObject("tabuada5", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -273,7 +291,7 @@ namespace Multiplication_Championship.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap tabuada6 {
+        public static System.Drawing.Bitmap tabuada6 {
             get {
                 object obj = ResourceManager.GetObject("tabuada6", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -283,7 +301,7 @@ namespace Multiplication_Championship.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap tabuada7 {
+        public static System.Drawing.Bitmap tabuada7 {
             get {
                 object obj = ResourceManager.GetObject("tabuada7", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -293,7 +311,7 @@ namespace Multiplication_Championship.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap tabuada8 {
+        public static System.Drawing.Bitmap tabuada8 {
             get {
                 object obj = ResourceManager.GetObject("tabuada8", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -303,7 +321,7 @@ namespace Multiplication_Championship.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap tabuada9 {
+        public static System.Drawing.Bitmap tabuada9 {
             get {
                 object obj = ResourceManager.GetObject("tabuada9", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -313,7 +331,7 @@ namespace Multiplication_Championship.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap tabuadaTodas {
+        public static System.Drawing.Bitmap tabuadaTodas {
             get {
                 object obj = ResourceManager.GetObject("tabuadaTodas", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -323,7 +341,7 @@ namespace Multiplication_Championship.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap tabuadaX {
+        public static System.Drawing.Bitmap tabuadaX {
             get {
                 object obj = ResourceManager.GetObject("tabuadaX", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -333,7 +351,7 @@ namespace Multiplication_Championship.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap times {
+        public static System.Drawing.Bitmap times {
             get {
                 object obj = ResourceManager.GetObject("times", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -343,7 +361,7 @@ namespace Multiplication_Championship.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap win {
+        public static System.Drawing.Bitmap win {
             get {
                 object obj = ResourceManager.GetObject("win", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -353,7 +371,7 @@ namespace Multiplication_Championship.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap wrong {
+        public static System.Drawing.Bitmap wrong {
             get {
                 object obj = ResourceManager.GetObject("wrong", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));

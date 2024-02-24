@@ -117,52 +117,142 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="&gt;&gt;btnShuffle.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnComutative.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnBack.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;btnComutative.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pointsReset" xml:space="preserve">
+    <value>Are you sure you want to restart the correct and wrong answer counters?
+This action cannot be undone!</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnComutative.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="btnPoints.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 65</value>
+  <data name="btnDestroy.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Bold</value>
+  </data>
+  <data name="btnPoints.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnDestroy.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnComutative.Name" xml:space="preserve">
+    <value>btnComutative</value>
+  </data>
+  <data name="lblTitle.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 24pt, style=Bold</value>
   </data>
   <data name="btnPoints.Size" type="System.Drawing.Size, System.Drawing">
     <value>280, 50</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="btnPoints.TabIndex" type="System.Int32, mscorlib">
+  <data name="lblTitle.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="btnPoints.Text" xml:space="preserve">
-    <value>Restarts the correct/wrong counter</value>
+  <data name="lblTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>266, 45</value>
   </data>
-  <data name="ttExplain.TrayLocation" type="System.Drawing.Point, System.Drawing">
-    <value>17, 17</value>
-  </data>
-  <data name="btnPoints.ToolTip" xml:space="preserve">
-    <value>Restarts the correct and wrong question counters</value>
-  </data>
-  <data name="&gt;&gt;btnPoints.Name" xml:space="preserve">
-    <value>btnPoints</value>
-  </data>
-  <data name="&gt;&gt;btnPoints.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnPoints.Parent" xml:space="preserve">
+  <data name="&gt;&gt;btnAwards.Parent" xml:space="preserve">
     <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btnPoints.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="btnAwards.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 121</value>
-  </data>
-  <data name="btnAwards.Size" type="System.Drawing.Size, System.Drawing">
-    <value>280, 50</value>
   </data>
   <data name="btnAwards.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
+  <data name="btnAwards.Size" type="System.Drawing.Size, System.Drawing">
+    <value>280, 50</value>
+  </data>
+  <data name="btnPoints.Text" xml:space="preserve">
+    <value>Restarts the correct/wrong counter</value>
+  </data>
+  <data name="&gt;&gt;btnBack.Name" xml:space="preserve">
+    <value>btnBack</value>
+  </data>
+  <data name="btnComutative.Size" type="System.Drawing.Size, System.Drawing">
+    <value>280, 50</value>
+  </data>
+  <data name="destroyMessage" xml:space="preserve">
+    <value>The registry was deleted successfully, the app will now restart.</value>
+  </data>
+  <data name="btnBack.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="&gt;&gt;btnShuffle.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 15</value>
+  </data>
+  <data name="btnShuffle.Text" xml:space="preserve">
+    <value>Always random</value>
+  </data>
+  <data name="btnComutative.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 233</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnPoints.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MasterControl</value>
+  </data>
   <data name="btnAwards.Text" xml:space="preserve">
     <value>Remove all medals</value>
   </data>
-  <data name="btnAwards.ToolTip" xml:space="preserve">
-    <value>Remove all obtained medals</value>
+  <data name="&gt;&gt;ttExplain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTitle.Name" xml:space="preserve">
+    <value>lblTitle</value>
+  </data>
+  <data name="lblTitle.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnDestroy.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnBack.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 360</value>
+  </data>
+  <data name="awardsReset" xml:space="preserve">
+    <value>Are you sure you want to remove all awarded medals?
+This action cannot be undone!</value>
+  </data>
+  <data name="&gt;&gt;ttExplain.Name" xml:space="preserve">
+    <value>ttExplain</value>
+  </data>
+  <data name="&gt;&gt;btnBack.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnBack.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>304, 411</value>
+  </data>
+  <data name="&gt;&gt;lblTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblTitle.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnComutative.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Master Control</value>
   </data>
   <data name="&gt;&gt;btnAwards.Name" xml:space="preserve">
     <value>btnAwards</value>
@@ -170,171 +260,84 @@
   <data name="&gt;&gt;btnAwards.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;btnAwards.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="btnComutative.ToolTip" xml:space="preserve">
+    <value>Forces all games to use the commutative option</value>
   </data>
-  <data name="&gt;&gt;btnAwards.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="btnShuffle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 177</value>
+  <data name="&gt;&gt;btnDestroy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="btnShuffle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>280, 50</value>
+  </data>
+  <data name="btnPoints.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 65</value>
+  </data>
+  <data name="btnAwards.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 121</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="btnShuffle.ToolTip" xml:space="preserve">
+    <value>Forces all games to use the random option</value>
+  </data>
+  <data name="btnBack.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 45</value>
+  </data>
+  <data name="btnBack.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="btnDestroy.Size" type="System.Drawing.Size, System.Drawing">
     <value>280, 50</value>
   </data>
   <data name="btnShuffle.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="btnShuffle.Text" xml:space="preserve">
-    <value>Always random</value>
-  </data>
-  <data name="btnShuffle.ToolTip" xml:space="preserve">
-    <value>Forces all games to use the random option</value>
-  </data>
-  <data name="&gt;&gt;btnShuffle.Name" xml:space="preserve">
-    <value>btnShuffle</value>
-  </data>
-  <data name="&gt;&gt;btnShuffle.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnShuffle.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btnShuffle.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="btnComutative.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 233</value>
-  </data>
-  <data name="btnComutative.Size" type="System.Drawing.Size, System.Drawing">
-    <value>280, 50</value>
-  </data>
-  <data name="btnComutative.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+  <data name="&gt;&gt;btnAwards.ZOrder" xml:space="preserve">
+    <value>5</value>
   </data>
   <data name="btnComutative.Text" xml:space="preserve">
     <value>Always commutative</value>
   </data>
-  <data name="btnComutative.ToolTip" xml:space="preserve">
-    <value>Forces all games to use the commutative option</value>
-  </data>
-  <data name="&gt;&gt;btnComutative.Name" xml:space="preserve">
-    <value>btnComutative</value>
-  </data>
-  <data name="&gt;&gt;btnComutative.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnComutative.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btnComutative.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="lblTitle.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblTitle.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 24pt, style=Bold</value>
-  </data>
-  <data name="lblTitle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 9</value>
-  </data>
-  <data name="lblTitle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>266, 45</value>
-  </data>
-  <data name="lblTitle.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="lblTitle.Text" xml:space="preserve">
-    <value>Master Control</value>
-  </data>
-  <data name="&gt;&gt;lblTitle.Name" xml:space="preserve">
-    <value>lblTitle</value>
-  </data>
-  <data name="&gt;&gt;lblTitle.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblTitle.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="btnBack.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="&gt;&gt;lblTitle.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="btnDestroy.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt, style=Bold</value>
+  <data name="&gt;&gt;btnShuffle.Name" xml:space="preserve">
+    <value>btnShuffle</value>
   </data>
-  <data name="btnDestroy.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 289</value>
+  <data name="btnAwards.ToolTip" xml:space="preserve">
+    <value>Remove all obtained medals</value>
   </data>
-  <data name="btnDestroy.Size" type="System.Drawing.Size, System.Drawing">
-    <value>280, 50</value>
-  </data>
-  <data name="btnDestroy.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="btnDestroy.Text" xml:space="preserve">
-    <value>Remove all registry!</value>
-  </data>
-  <data name="btnDestroy.ToolTip" xml:space="preserve">
-    <value>Removes all data and application settings</value>
+  <data name="&gt;&gt;btnShuffle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;btnDestroy.Name" xml:space="preserve">
     <value>btnDestroy</value>
   </data>
-  <data name="&gt;&gt;btnDestroy.Type" xml:space="preserve">
+  <data name="&gt;&gt;btnPoints.Name" xml:space="preserve">
+    <value>btnPoints</value>
+  </data>
+  <data name="btnDestroy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 289</value>
+  </data>
+  <data name="&gt;&gt;lblTitle.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnPoints.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;btnDestroy.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="btnDestroy.ToolTip" xml:space="preserve">
+    <value>Removes all data and application settings</value>
   </data>
-  <data name="&gt;&gt;btnDestroy.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="btnDestroy.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="btnBack.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
-  <data name="btnBack.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="btnBack.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="btnBack.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 360</value>
-  </data>
-  <data name="btnBack.Size" type="System.Drawing.Size, System.Drawing">
-    <value>45, 45</value>
-  </data>
-  <data name="btnBack.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;btnBack.Name" xml:space="preserve">
-    <value>btnBack</value>
-  </data>
-  <data name="&gt;&gt;btnBack.Type" xml:space="preserve">
-    <value>Multiplication_Championship.Components.RoundedButton, Multiplication Championship, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;btnBack.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btnBack.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="$this.Language" type="System.Globalization.CultureInfo, mscorlib">
-    <value>pt-PT</value>
-  </data>
-  <data name="$this.Localizable" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="$this.TrayHeight" type="System.Int32, mscorlib">
-    <value>63</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>7, 15</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>304, 411</value>
+  <data name="destroyConfirm" xml:space="preserve">
+    <value>Are you sure you want to remove all stored data? It contains data like the total amount of correct and wrong answers, medals and Master Control settings.
+This action cannot be undone!</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -890,22 +893,43 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 </value>
   </data>
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
+  <data name="btnDestroy.Text" xml:space="preserve">
+    <value>Remove all registry!</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Master Control</value>
+  <data name="lblTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 9</value>
   </data>
-  <data name="&gt;&gt;ttExplain.Name" xml:space="preserve">
-    <value>ttExplain</value>
-  </data>
-  <data name="&gt;&gt;ttExplain.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>MasterControl</value>
+  <data name="btnShuffle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 177</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnBack.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="uninitializedMessage" xml:space="preserve">
+    <value>The apprentice mode must be open at least once before trying to open Master Control. Please start using the apprentice mode.</value>
+  </data>
+  <data name="btnPoints.ToolTip" xml:space="preserve">
+    <value>Restarts the correct and wrong question counters</value>
+  </data>
+  <data name="&gt;&gt;btnPoints.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblTitle.Text" xml:space="preserve">
+    <value>Master Control</value>
+  </data>
+  <data name="&gt;&gt;btnBack.Type" xml:space="preserve">
+    <value>Multiplication_Championship.Components.RoundedButton, Multiplication Championship, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="ttExplain.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>17, 17</value>
+  </data>
+  <data name="$this.TrayHeight" type="System.Int32, mscorlib">
+    <value>63</value>
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
 </root>

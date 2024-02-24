@@ -117,58 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="$this.Text" xml:space="preserve">
+  <data name="appName" xml:space="preserve">
     <value>Campeonato das Tabuadas</value>
   </data>
-  <data name="btnStart.Text" xml:space="preserve">
-    <value>Começar</value>
-  </data>
-  <data name="cbbTabuada.Items10" xml:space="preserve">
-    <value>Todas</value>
-  </data>
-  <data name="cbbTabuada.Items9" xml:space="preserve">
-    <value>Outra</value>
-  </data>
-  <data name="cbComutative.Text" xml:space="preserve">
-    <value>Comutativa</value>
-  </data>
-  <data name="cbShuffle.Text" xml:space="preserve">
-    <value>Aleatório</value>
-  </data>
-  <data name="chName.Text" xml:space="preserve">
-    <value>Nome</value>
-  </data>
-  <data name="chState.Text" xml:space="preserve">
-    <value>Estado</value>
-  </data>
-  <data name="lblAwards.Text" xml:space="preserve">
-    <value>Medalhas</value>
-  </data>
-  <data name="lblMax.Text" xml:space="preserve">
-    <value>Valor Máximo:</value>
-  </data>
-  <data name="lblMin.Text" xml:space="preserve">
-    <value>Valor Mínimo:</value>
-  </data>
-  <data name="lblNoGameInfo.Text" xml:space="preserve">
-    <value>Configure e inicie um jogo através das configurações ao lado</value>
-  </data>
-  <data name="lblQtd.Text" xml:space="preserve">
-    <value>Qtd. de Perguntas:</value>
-  </data>
-  <data name="lblTabuada.Text" xml:space="preserve">
-    <value>Tabuada:</value>
-  </data>
-  <data name="lblTextAwards.Text" xml:space="preserve">
-    <value>Aqui estão todas as medalhas que conseguiste até agora:</value>
-  </data>
-  <data name="tpAwards.Text" xml:space="preserve">
-    <value>Medalhas</value>
-  </data>
-  <data name="tpGame.Text" xml:space="preserve">
-    <value>Jogo</value>
-  </data>
-  <data name="tpSetup.Text" xml:space="preserve">
-    <value>Configurar</value>
+  <data name="masterPassword" xml:space="preserve">
+    <value>mestredastabuadas</value>
   </data>
 </root>

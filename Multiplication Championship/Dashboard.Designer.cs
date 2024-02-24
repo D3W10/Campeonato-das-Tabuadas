@@ -33,21 +33,21 @@ namespace Multiplication_Championship
         {
             components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dashboard));
-            cbbTabuada = new System.Windows.Forms.ComboBox();
+            cbbMultiplication = new System.Windows.Forms.ComboBox();
             pSide = new System.Windows.Forms.Panel();
             tlpConfig = new System.Windows.Forms.TableLayoutPanel();
             pConfig = new System.Windows.Forms.Panel();
             lblMin = new System.Windows.Forms.Label();
             nudMin = new System.Windows.Forms.NumericUpDown();
-            pbNTabuada = new System.Windows.Forms.PictureBox();
+            pbNMultiplication = new System.Windows.Forms.PictureBox();
             cbShuffle = new System.Windows.Forms.CheckBox();
-            lblTabuada = new System.Windows.Forms.Label();
-            tbTabuada = new System.Windows.Forms.TextBox();
+            lblMultiplication = new System.Windows.Forms.Label();
+            tbMultiplication = new System.Windows.Forms.TextBox();
             cbComutative = new System.Windows.Forms.CheckBox();
-            nudQtd = new System.Windows.Forms.NumericUpDown();
+            nudQty = new System.Windows.Forms.NumericUpDown();
             lblMax = new System.Windows.Forms.Label();
             nudMax = new System.Windows.Forms.NumericUpDown();
-            lblQtd = new System.Windows.Forms.Label();
+            lblQty = new System.Windows.Forms.Label();
             btnStart = new System.Windows.Forms.Button();
             btnNotebook = new RoundedButton();
             btnCalculator = new RoundedButton();
@@ -84,8 +84,8 @@ namespace Multiplication_Championship
             tlpConfig.SuspendLayout();
             pConfig.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)nudMin).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pbNTabuada).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)nudQtd).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pbNMultiplication).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)nudQty).BeginInit();
             ((System.ComponentModel.ISupportInitialize)nudMax).BeginInit();
             tcPages.SuspendLayout();
             tpSetup.SuspendLayout();
@@ -99,14 +99,14 @@ namespace Multiplication_Championship
             tpAwards.SuspendLayout();
             SuspendLayout();
             // 
-            // cbbTabuada
+            // cbbMultiplication
             // 
-            cbbTabuada.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            cbbTabuada.FormattingEnabled = true;
-            cbbTabuada.Items.AddRange(new object[] { resources.GetString("cbbTabuada.Items"), resources.GetString("cbbTabuada.Items1"), resources.GetString("cbbTabuada.Items2"), resources.GetString("cbbTabuada.Items3"), resources.GetString("cbbTabuada.Items4"), resources.GetString("cbbTabuada.Items5"), resources.GetString("cbbTabuada.Items6"), resources.GetString("cbbTabuada.Items7"), resources.GetString("cbbTabuada.Items8"), resources.GetString("cbbTabuada.Items9"), resources.GetString("cbbTabuada.Items10") });
-            resources.ApplyResources(cbbTabuada, "cbbTabuada");
-            cbbTabuada.Name = "cbbTabuada";
-            cbbTabuada.SelectedIndexChanged += cbbTabuada_SelectedIndexChanged;
+            cbbMultiplication.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            cbbMultiplication.FormattingEnabled = true;
+            cbbMultiplication.Items.AddRange(new object[] { resources.GetString("cbbMultiplication.Items"), resources.GetString("cbbMultiplication.Items1"), resources.GetString("cbbMultiplication.Items2"), resources.GetString("cbbMultiplication.Items3"), resources.GetString("cbbMultiplication.Items4"), resources.GetString("cbbMultiplication.Items5"), resources.GetString("cbbMultiplication.Items6"), resources.GetString("cbbMultiplication.Items7"), resources.GetString("cbbMultiplication.Items8"), resources.GetString("cbbMultiplication.Items9"), resources.GetString("cbbMultiplication.Items10") });
+            resources.ApplyResources(cbbMultiplication, "cbbMultiplication");
+            cbbMultiplication.Name = "cbbMultiplication";
+            cbbMultiplication.SelectedIndexChanged += cbbTabuada_SelectedIndexChanged;
             // 
             // pSide
             // 
@@ -130,16 +130,16 @@ namespace Multiplication_Championship
             resources.ApplyResources(pConfig, "pConfig");
             pConfig.Controls.Add(lblMin);
             pConfig.Controls.Add(nudMin);
-            pConfig.Controls.Add(pbNTabuada);
+            pConfig.Controls.Add(pbNMultiplication);
             pConfig.Controls.Add(cbShuffle);
-            pConfig.Controls.Add(cbbTabuada);
-            pConfig.Controls.Add(lblTabuada);
-            pConfig.Controls.Add(tbTabuada);
+            pConfig.Controls.Add(cbbMultiplication);
+            pConfig.Controls.Add(lblMultiplication);
+            pConfig.Controls.Add(tbMultiplication);
             pConfig.Controls.Add(cbComutative);
-            pConfig.Controls.Add(nudQtd);
+            pConfig.Controls.Add(nudQty);
             pConfig.Controls.Add(lblMax);
             pConfig.Controls.Add(nudMax);
-            pConfig.Controls.Add(lblQtd);
+            pConfig.Controls.Add(lblQty);
             pConfig.Controls.Add(btnStart);
             pConfig.Name = "pConfig";
             // 
@@ -155,12 +155,12 @@ namespace Multiplication_Championship
             nudMin.Name = "nudMin";
             nudMin.Value = new decimal(new int[] { 1, 0, 0, 0 });
             // 
-            // pbNTabuada
+            // pbNMultiplication
             // 
-            pbNTabuada.Image = Properties.Resources.tabuadaX;
-            resources.ApplyResources(pbNTabuada, "pbNTabuada");
-            pbNTabuada.Name = "pbNTabuada";
-            pbNTabuada.TabStop = false;
+            pbNMultiplication.Image = Properties.Resources.tabuadaX;
+            resources.ApplyResources(pbNMultiplication, "pbNMultiplication");
+            pbNMultiplication.Name = "pbNMultiplication";
+            pbNMultiplication.TabStop = false;
             // 
             // cbShuffle
             // 
@@ -168,16 +168,16 @@ namespace Multiplication_Championship
             cbShuffle.Name = "cbShuffle";
             cbShuffle.UseVisualStyleBackColor = true;
             // 
-            // lblTabuada
+            // lblMultiplication
             // 
-            resources.ApplyResources(lblTabuada, "lblTabuada");
-            lblTabuada.Name = "lblTabuada";
+            resources.ApplyResources(lblMultiplication, "lblMultiplication");
+            lblMultiplication.Name = "lblMultiplication";
             // 
-            // tbTabuada
+            // tbMultiplication
             // 
-            resources.ApplyResources(tbTabuada, "tbTabuada");
-            tbTabuada.Name = "tbTabuada";
-            tbTabuada.KeyPress += tbTabuada_KeyPress;
+            resources.ApplyResources(tbMultiplication, "tbMultiplication");
+            tbMultiplication.Name = "tbMultiplication";
+            tbMultiplication.KeyPress += tbTabuada_KeyPress;
             // 
             // cbComutative
             // 
@@ -185,13 +185,13 @@ namespace Multiplication_Championship
             cbComutative.Name = "cbComutative";
             cbComutative.UseVisualStyleBackColor = true;
             // 
-            // nudQtd
+            // nudQty
             // 
-            resources.ApplyResources(nudQtd, "nudQtd");
-            nudQtd.Maximum = new decimal(new int[] { 50, 0, 0, 0 });
-            nudQtd.Minimum = new decimal(new int[] { 3, 0, 0, 0 });
-            nudQtd.Name = "nudQtd";
-            nudQtd.Value = new decimal(new int[] { 10, 0, 0, 0 });
+            resources.ApplyResources(nudQty, "nudQty");
+            nudQty.Maximum = new decimal(new int[] { 50, 0, 0, 0 });
+            nudQty.Minimum = new decimal(new int[] { 3, 0, 0, 0 });
+            nudQty.Name = "nudQty";
+            nudQty.Value = new decimal(new int[] { 10, 0, 0, 0 });
             // 
             // lblMax
             // 
@@ -206,10 +206,10 @@ namespace Multiplication_Championship
             nudMax.Name = "nudMax";
             nudMax.Value = new decimal(new int[] { 10, 0, 0, 0 });
             // 
-            // lblQtd
+            // lblQty
             // 
-            resources.ApplyResources(lblQtd, "lblQtd");
-            lblQtd.Name = "lblQtd";
+            resources.ApplyResources(lblQty, "lblQty");
+            lblQty.Name = "lblQty";
             // 
             // btnStart
             // 
@@ -437,45 +437,45 @@ namespace Multiplication_Championship
             ilAwards.ColorDepth = System.Windows.Forms.ColorDepth.Depth32Bit;
             ilAwards.ImageStream = (System.Windows.Forms.ImageListStreamer)resources.GetObject("ilAwards.ImageStream");
             ilAwards.TransparentColor = System.Drawing.Color.Transparent;
-            ilAwards.Images.SetKeyName(0, "A1.png");
-            ilAwards.Images.SetKeyName(1, "A1G.png");
-            ilAwards.Images.SetKeyName(2, "A1R.png");
-            ilAwards.Images.SetKeyName(3, "A2.png");
-            ilAwards.Images.SetKeyName(4, "A2G.png");
-            ilAwards.Images.SetKeyName(5, "A2R.png");
-            ilAwards.Images.SetKeyName(6, "A3.png");
-            ilAwards.Images.SetKeyName(7, "A3G.png");
-            ilAwards.Images.SetKeyName(8, "A3R.png");
-            ilAwards.Images.SetKeyName(9, "A4.png");
-            ilAwards.Images.SetKeyName(10, "A4G.png");
-            ilAwards.Images.SetKeyName(11, "A4R.png");
-            ilAwards.Images.SetKeyName(12, "A5.png");
-            ilAwards.Images.SetKeyName(13, "A5G.png");
-            ilAwards.Images.SetKeyName(14, "A5R.png");
-            ilAwards.Images.SetKeyName(15, "A6.png");
-            ilAwards.Images.SetKeyName(16, "A6G.png");
-            ilAwards.Images.SetKeyName(17, "A6R.png");
-            ilAwards.Images.SetKeyName(18, "A7.png");
-            ilAwards.Images.SetKeyName(19, "A7G.png");
-            ilAwards.Images.SetKeyName(20, "A7R.png");
-            ilAwards.Images.SetKeyName(21, "A8.png");
-            ilAwards.Images.SetKeyName(22, "A8G.png");
-            ilAwards.Images.SetKeyName(23, "A8R.png");
-            ilAwards.Images.SetKeyName(24, "A9.png");
-            ilAwards.Images.SetKeyName(25, "A9G.png");
-            ilAwards.Images.SetKeyName(26, "A9R.png");
-            ilAwards.Images.SetKeyName(27, "AX.png");
-            ilAwards.Images.SetKeyName(28, "AXG.png");
-            ilAwards.Images.SetKeyName(29, "AXR.png");
-            ilAwards.Images.SetKeyName(30, "C100.png");
-            ilAwards.Images.SetKeyName(31, "C300.png");
-            ilAwards.Images.SetKeyName(32, "C1000.png");
-            ilAwards.Images.SetKeyName(33, "T30.png");
-            ilAwards.Images.SetKeyName(34, "T10.png");
-            ilAwards.Images.SetKeyName(35, "F1.png");
-            ilAwards.Images.SetKeyName(36, "F2.png");
-            ilAwards.Images.SetKeyName(37, "F3.png");
-            ilAwards.Images.SetKeyName(38, "F4.png");
+            ilAwards.Images.SetKeyName(0, "A1");
+            ilAwards.Images.SetKeyName(1, "A1G");
+            ilAwards.Images.SetKeyName(2, "A1R");
+            ilAwards.Images.SetKeyName(3, "A2");
+            ilAwards.Images.SetKeyName(4, "A2G");
+            ilAwards.Images.SetKeyName(5, "A2R");
+            ilAwards.Images.SetKeyName(6, "A3");
+            ilAwards.Images.SetKeyName(7, "A3G");
+            ilAwards.Images.SetKeyName(8, "A3R");
+            ilAwards.Images.SetKeyName(9, "A4");
+            ilAwards.Images.SetKeyName(10, "A4G");
+            ilAwards.Images.SetKeyName(11, "A4R");
+            ilAwards.Images.SetKeyName(12, "A5");
+            ilAwards.Images.SetKeyName(13, "A5G");
+            ilAwards.Images.SetKeyName(14, "A5R");
+            ilAwards.Images.SetKeyName(15, "A6");
+            ilAwards.Images.SetKeyName(16, "A6G");
+            ilAwards.Images.SetKeyName(17, "A6R");
+            ilAwards.Images.SetKeyName(18, "A7");
+            ilAwards.Images.SetKeyName(19, "A7G");
+            ilAwards.Images.SetKeyName(20, "A7R");
+            ilAwards.Images.SetKeyName(21, "A8");
+            ilAwards.Images.SetKeyName(22, "A8G");
+            ilAwards.Images.SetKeyName(23, "A8R");
+            ilAwards.Images.SetKeyName(24, "A9");
+            ilAwards.Images.SetKeyName(25, "A9G");
+            ilAwards.Images.SetKeyName(26, "A9R");
+            ilAwards.Images.SetKeyName(27, "AX");
+            ilAwards.Images.SetKeyName(28, "AXG");
+            ilAwards.Images.SetKeyName(29, "AXR");
+            ilAwards.Images.SetKeyName(30, "C100");
+            ilAwards.Images.SetKeyName(31, "C300");
+            ilAwards.Images.SetKeyName(32, "C1000");
+            ilAwards.Images.SetKeyName(33, "T30");
+            ilAwards.Images.SetKeyName(34, "T10");
+            ilAwards.Images.SetKeyName(35, "F1");
+            ilAwards.Images.SetKeyName(36, "F2");
+            ilAwards.Images.SetKeyName(37, "F3");
+            ilAwards.Images.SetKeyName(38, "F4");
             // 
             // lblTextAwards
             // 
@@ -505,8 +505,8 @@ namespace Multiplication_Championship
             pConfig.ResumeLayout(false);
             pConfig.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)nudMin).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pbNTabuada).EndInit();
-            ((System.ComponentModel.ISupportInitialize)nudQtd).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pbNMultiplication).EndInit();
+            ((System.ComponentModel.ISupportInitialize)nudQty).EndInit();
             ((System.ComponentModel.ISupportInitialize)nudMax).EndInit();
             tcPages.ResumeLayout(false);
             tpSetup.ResumeLayout(false);
@@ -528,16 +528,16 @@ namespace Multiplication_Championship
 
         #endregion
 
-        private System.Windows.Forms.ComboBox cbbTabuada;
+        private System.Windows.Forms.ComboBox cbbMultiplication;
         private System.Windows.Forms.Panel pSide;
-        private System.Windows.Forms.Label lblTabuada;
+        private System.Windows.Forms.Label lblMultiplication;
         private System.Windows.Forms.CheckBox cbShuffle;
-        private System.Windows.Forms.PictureBox pbNTabuada;
+        private System.Windows.Forms.PictureBox pbNMultiplication;
         private System.Windows.Forms.NumericUpDown nudMax;
-        private System.Windows.Forms.NumericUpDown nudQtd;
-        private System.Windows.Forms.TextBox tbTabuada;
+        private System.Windows.Forms.NumericUpDown nudQty;
+        private System.Windows.Forms.TextBox tbMultiplication;
         private System.Windows.Forms.Label lblMax;
-        private System.Windows.Forms.Label lblQtd;
+        private System.Windows.Forms.Label lblQty;
         private System.Windows.Forms.Button btnStart;
         private System.Windows.Forms.ProgressBar pgbCompletition;
         private System.Windows.Forms.PictureBox pbCorrect;

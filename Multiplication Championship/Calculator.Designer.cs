@@ -72,9 +72,9 @@ namespace Multiplication_Championship
             // 
             // btnClear
             // 
+            resources.ApplyResources(btnClear, "btnClear");
             btnClear.BackColor = System.Drawing.SystemColors.Control;
             btnClear.BackgroundImage = Properties.Resources.clear;
-            resources.ApplyResources(btnClear, "btnClear");
             btnClear.BorderColor = System.Drawing.SystemColors.ActiveBorder;
             btnClear.BorderRadius = 10;
             btnClear.BorderSize = 0;
@@ -88,9 +88,9 @@ namespace Multiplication_Championship
             // 
             // btnDelete
             // 
+            resources.ApplyResources(btnDelete, "btnDelete");
             btnDelete.BackColor = System.Drawing.SystemColors.Control;
             btnDelete.BackgroundImage = Properties.Resources.delete;
-            resources.ApplyResources(btnDelete, "btnDelete");
             btnDelete.BorderColor = System.Drawing.SystemColors.ActiveBorder;
             btnDelete.BorderRadius = 10;
             btnDelete.BorderSize = 0;
@@ -104,9 +104,9 @@ namespace Multiplication_Championship
             // 
             // btnPlusMinus
             // 
+            resources.ApplyResources(btnPlusMinus, "btnPlusMinus");
             btnPlusMinus.BackColor = System.Drawing.SystemColors.Control;
             btnPlusMinus.BackgroundImage = Properties.Resources.plusMinus;
-            resources.ApplyResources(btnPlusMinus, "btnPlusMinus");
             btnPlusMinus.BorderColor = System.Drawing.SystemColors.ActiveBorder;
             btnPlusMinus.BorderRadius = 10;
             btnPlusMinus.BorderSize = 0;
@@ -120,9 +120,9 @@ namespace Multiplication_Championship
             // 
             // btnNum7
             // 
+            resources.ApplyResources(btnNum7, "btnNum7");
             btnNum7.BackColor = System.Drawing.SystemColors.Control;
             btnNum7.BackgroundImage = Properties.Resources.tabuada7;
-            resources.ApplyResources(btnNum7, "btnNum7");
             btnNum7.BorderColor = System.Drawing.SystemColors.ActiveBorder;
             btnNum7.BorderRadius = 10;
             btnNum7.BorderSize = 0;
@@ -135,9 +135,9 @@ namespace Multiplication_Championship
             // 
             // btnNum8
             // 
+            resources.ApplyResources(btnNum8, "btnNum8");
             btnNum8.BackColor = System.Drawing.SystemColors.Control;
             btnNum8.BackgroundImage = Properties.Resources.tabuada8;
-            resources.ApplyResources(btnNum8, "btnNum8");
             btnNum8.BorderColor = System.Drawing.SystemColors.ActiveBorder;
             btnNum8.BorderRadius = 10;
             btnNum8.BorderSize = 0;
@@ -150,9 +150,9 @@ namespace Multiplication_Championship
             // 
             // btnNum9
             // 
+            resources.ApplyResources(btnNum9, "btnNum9");
             btnNum9.BackColor = System.Drawing.SystemColors.Control;
             btnNum9.BackgroundImage = Properties.Resources.tabuada9;
-            resources.ApplyResources(btnNum9, "btnNum9");
             btnNum9.BorderColor = System.Drawing.SystemColors.ActiveBorder;
             btnNum9.BorderRadius = 10;
             btnNum9.BorderSize = 0;
@@ -165,9 +165,9 @@ namespace Multiplication_Championship
             // 
             // btnTimes
             // 
+            resources.ApplyResources(btnTimes, "btnTimes");
             btnTimes.BackColor = System.Drawing.SystemColors.Control;
             btnTimes.BackgroundImage = Properties.Resources.times;
-            resources.ApplyResources(btnTimes, "btnTimes");
             btnTimes.BorderColor = System.Drawing.SystemColors.ActiveBorder;
             btnTimes.BorderRadius = 10;
             btnTimes.BorderSize = 0;
@@ -181,9 +181,9 @@ namespace Multiplication_Championship
             // 
             // btnNum4
             // 
+            resources.ApplyResources(btnNum4, "btnNum4");
             btnNum4.BackColor = System.Drawing.SystemColors.Control;
             btnNum4.BackgroundImage = Properties.Resources.tabuada4;
-            resources.ApplyResources(btnNum4, "btnNum4");
             btnNum4.BorderColor = System.Drawing.SystemColors.ActiveBorder;
             btnNum4.BorderRadius = 10;
             btnNum4.BorderSize = 0;
@@ -196,9 +196,9 @@ namespace Multiplication_Championship
             // 
             // btnNum5
             // 
+            resources.ApplyResources(btnNum5, "btnNum5");
             btnNum5.BackColor = System.Drawing.SystemColors.Control;
             btnNum5.BackgroundImage = Properties.Resources.tabuada5;
-            resources.ApplyResources(btnNum5, "btnNum5");
             btnNum5.BorderColor = System.Drawing.SystemColors.ActiveBorder;
             btnNum5.BorderRadius = 10;
             btnNum5.BorderSize = 0;
@@ -211,9 +211,9 @@ namespace Multiplication_Championship
             // 
             // btnNum6
             // 
+            resources.ApplyResources(btnNum6, "btnNum6");
             btnNum6.BackColor = System.Drawing.SystemColors.Control;
             btnNum6.BackgroundImage = Properties.Resources.tabuada6;
-            resources.ApplyResources(btnNum6, "btnNum6");
             btnNum6.BorderColor = System.Drawing.SystemColors.ActiveBorder;
             btnNum6.BorderRadius = 10;
             btnNum6.BorderSize = 0;
@@ -226,9 +226,9 @@ namespace Multiplication_Championship
             // 
             // btnMinus
             // 
+            resources.ApplyResources(btnMinus, "btnMinus");
             btnMinus.BackColor = System.Drawing.SystemColors.Control;
             btnMinus.BackgroundImage = Properties.Resources.minus;
-            resources.ApplyResources(btnMinus, "btnMinus");
             btnMinus.BorderColor = System.Drawing.SystemColors.ActiveBorder;
             btnMinus.BorderRadius = 10;
             btnMinus.BorderSize = 0;
@@ -242,9 +242,9 @@ namespace Multiplication_Championship
             // 
             // btnNum1
             // 
+            resources.ApplyResources(btnNum1, "btnNum1");
             btnNum1.BackColor = System.Drawing.SystemColors.Control;
             btnNum1.BackgroundImage = Properties.Resources.tabuada1;
-            resources.ApplyResources(btnNum1, "btnNum1");
             btnNum1.BorderColor = System.Drawing.SystemColors.ActiveBorder;
             btnNum1.BorderRadius = 10;
             btnNum1.BorderSize = 0;
@@ -257,9 +257,9 @@ namespace Multiplication_Championship
             // 
             // btnNum2
             // 
+            resources.ApplyResources(btnNum2, "btnNum2");
             btnNum2.BackColor = System.Drawing.SystemColors.Control;
             btnNum2.BackgroundImage = Properties.Resources.tabuada2;
-            resources.ApplyResources(btnNum2, "btnNum2");
             btnNum2.BorderColor = System.Drawing.SystemColors.ActiveBorder;
             btnNum2.BorderRadius = 10;
             btnNum2.BorderSize = 0;
@@ -272,9 +272,9 @@ namespace Multiplication_Championship
             // 
             // btnNum3
             // 
+            resources.ApplyResources(btnNum3, "btnNum3");
             btnNum3.BackColor = System.Drawing.SystemColors.Control;
             btnNum3.BackgroundImage = Properties.Resources.tabuada3;
-            resources.ApplyResources(btnNum3, "btnNum3");
             btnNum3.BorderColor = System.Drawing.SystemColors.ActiveBorder;
             btnNum3.BorderRadius = 10;
             btnNum3.BorderSize = 0;
@@ -287,9 +287,9 @@ namespace Multiplication_Championship
             // 
             // btnPlus
             // 
+            resources.ApplyResources(btnPlus, "btnPlus");
             btnPlus.BackColor = System.Drawing.SystemColors.Control;
             btnPlus.BackgroundImage = Properties.Resources.plus;
-            resources.ApplyResources(btnPlus, "btnPlus");
             btnPlus.BorderColor = System.Drawing.SystemColors.ActiveBorder;
             btnPlus.BorderRadius = 10;
             btnPlus.BorderSize = 0;
@@ -303,9 +303,9 @@ namespace Multiplication_Championship
             // 
             // btnEquals
             // 
+            resources.ApplyResources(btnEquals, "btnEquals");
             btnEquals.BackColor = System.Drawing.SystemColors.Control;
             btnEquals.BackgroundImage = Properties.Resources.result;
-            resources.ApplyResources(btnEquals, "btnEquals");
             btnEquals.BorderColor = System.Drawing.SystemColors.ActiveBorder;
             btnEquals.BorderRadius = 10;
             btnEquals.BorderSize = 0;
@@ -319,9 +319,9 @@ namespace Multiplication_Championship
             // 
             // btnPeriod
             // 
+            resources.ApplyResources(btnPeriod, "btnPeriod");
             btnPeriod.BackColor = System.Drawing.SystemColors.Control;
             btnPeriod.BackgroundImage = Properties.Resources.period;
-            resources.ApplyResources(btnPeriod, "btnPeriod");
             btnPeriod.BorderColor = System.Drawing.SystemColors.ActiveBorder;
             btnPeriod.BorderRadius = 10;
             btnPeriod.BorderSize = 0;
@@ -334,9 +334,9 @@ namespace Multiplication_Championship
             // 
             // btnNum0
             // 
+            resources.ApplyResources(btnNum0, "btnNum0");
             btnNum0.BackColor = System.Drawing.SystemColors.Control;
             btnNum0.BackgroundImage = Properties.Resources.btn0;
-            resources.ApplyResources(btnNum0, "btnNum0");
             btnNum0.BorderColor = System.Drawing.SystemColors.ActiveBorder;
             btnNum0.BorderRadius = 10;
             btnNum0.BorderSize = 0;
@@ -349,9 +349,9 @@ namespace Multiplication_Championship
             // 
             // btnDivide
             // 
+            resources.ApplyResources(btnDivide, "btnDivide");
             btnDivide.BackColor = System.Drawing.SystemColors.Control;
             btnDivide.BackgroundImage = Properties.Resources.divide;
-            resources.ApplyResources(btnDivide, "btnDivide");
             btnDivide.BorderColor = System.Drawing.SystemColors.ActiveBorder;
             btnDivide.BorderRadius = 10;
             btnDivide.BorderSize = 0;

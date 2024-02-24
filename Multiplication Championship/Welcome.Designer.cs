@@ -1,6 +1,4 @@
-﻿
-using System.Drawing;
-using System.Windows.Forms;
+﻿using System.Windows.Forms;
 using Multiplication_Championship.Components;
 
 namespace Multiplication_Championship
@@ -35,17 +33,18 @@ namespace Multiplication_Championship
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Welcome));
             lblWelcome = new Label();
-            btnAprendiz = new Button();
-            btnMestre = new Button();
+            btnApprentice = new Button();
+            btnMaster = new Button();
             lblInfo = new Label();
             lblBetter = new Label();
             btnLogin = new Button();
             tbPassword = new TextBox();
-            lblInfoMestre = new Label();
+            lblInfoMaster = new Label();
             lblLogin = new Label();
             tcPages = new TabControl();
             tpWelcome = new TabPage();
             tpMaster = new TabPage();
+            btnBack = new RoundedButton();
             tcPages.SuspendLayout();
             tpWelcome.SuspendLayout();
             tpMaster.SuspendLayout();
@@ -56,19 +55,19 @@ namespace Multiplication_Championship
             resources.ApplyResources(lblWelcome, "lblWelcome");
             lblWelcome.Name = "lblWelcome";
             // 
-            // btnAprendiz
+            // btnApprentice
             // 
-            resources.ApplyResources(btnAprendiz, "btnAprendiz");
-            btnAprendiz.Name = "btnAprendiz";
-            btnAprendiz.UseVisualStyleBackColor = true;
-            btnAprendiz.Click += btnAprendiz_Click;
+            resources.ApplyResources(btnApprentice, "btnApprentice");
+            btnApprentice.Name = "btnApprentice";
+            btnApprentice.UseVisualStyleBackColor = true;
+            btnApprentice.Click += btnApprentice_Click;
             // 
-            // btnMestre
+            // btnMaster
             // 
-            resources.ApplyResources(btnMestre, "btnMestre");
-            btnMestre.Name = "btnMestre";
-            btnMestre.UseVisualStyleBackColor = true;
-            btnMestre.Click += btnMestre_Click;
+            resources.ApplyResources(btnMaster, "btnMaster");
+            btnMaster.Name = "btnMaster";
+            btnMaster.UseVisualStyleBackColor = true;
+            btnMaster.Click += btnMaster_Click;
             // 
             // lblInfo
             // 
@@ -95,10 +94,10 @@ namespace Multiplication_Championship
             tbPassword.UseSystemPasswordChar = true;
             tbPassword.KeyPress += tbPassword_KeyPress;
             // 
-            // lblInfoMestre
+            // lblInfoMaster
             // 
-            resources.ApplyResources(lblInfoMestre, "lblInfoMestre");
-            lblInfoMestre.Name = "lblInfoMestre";
+            resources.ApplyResources(lblInfoMaster, "lblInfoMaster");
+            lblInfoMaster.Name = "lblInfoMaster";
             // 
             // lblLogin
             // 
@@ -117,24 +116,39 @@ namespace Multiplication_Championship
             // 
             // tpWelcome
             // 
-            resources.ApplyResources(tpWelcome, "tpWelcome");
-            tpWelcome.Controls.Add(btnMestre);
+            tpWelcome.Controls.Add(btnMaster);
             tpWelcome.Controls.Add(lblBetter);
             tpWelcome.Controls.Add(lblWelcome);
             tpWelcome.Controls.Add(lblInfo);
-            tpWelcome.Controls.Add(btnAprendiz);
+            tpWelcome.Controls.Add(btnApprentice);
+            resources.ApplyResources(tpWelcome, "tpWelcome");
             tpWelcome.Name = "tpWelcome";
             tpWelcome.UseVisualStyleBackColor = true;
             // 
             // tpMaster
             // 
-            resources.ApplyResources(tpMaster, "tpMaster");
+            tpMaster.Controls.Add(btnBack);
             tpMaster.Controls.Add(btnLogin);
             tpMaster.Controls.Add(lblLogin);
-            tpMaster.Controls.Add(lblInfoMestre);
+            tpMaster.Controls.Add(lblInfoMaster);
             tpMaster.Controls.Add(tbPassword);
+            resources.ApplyResources(tpMaster, "tpMaster");
             tpMaster.Name = "tpMaster";
             tpMaster.UseVisualStyleBackColor = true;
+            // 
+            // btnBack
+            // 
+            resources.ApplyResources(btnBack, "btnBack");
+            btnBack.BackColor = System.Drawing.SystemColors.Control;
+            btnBack.BackgroundImage = Properties.Resources.back;
+            btnBack.BorderColor = System.Drawing.SystemColors.ActiveBorder;
+            btnBack.BorderRadius = 10;
+            btnBack.BorderSize = 0;
+            btnBack.Cursor = Cursors.Hand;
+            btnBack.ForeColor = System.Drawing.SystemColors.ControlText;
+            btnBack.Name = "btnBack";
+            btnBack.UseVisualStyleBackColor = false;
+            btnBack.Click += btnBack_Click;
             // 
             // Welcome
             // 
@@ -155,13 +169,13 @@ namespace Multiplication_Championship
         #endregion
 
         private Label lblWelcome;
-        private Button btnAprendiz;
-        private Button btnMestre;
+        private Button btnApprentice;
+        private Button btnMaster;
         private Label lblInfo;
         private Label lblBetter;
         private Button btnLogin;
         private TextBox tbPassword;
-        private Label lblInfoMestre;
+        private Label lblInfoMaster;
         private Label lblLogin;
         private TabControl tcPages;
         private TabPage tpWelcome;

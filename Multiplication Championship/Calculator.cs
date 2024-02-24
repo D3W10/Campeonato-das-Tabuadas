@@ -19,7 +19,7 @@ namespace Multiplication_Championship
 
         private decimal GetDisplayValue()
         {
-            return Convert.ToDecimal(lblDisplay.Text == "Erro" ? "0" : lblDisplay.Text);
+            return Convert.ToDecimal(lblDisplay.Text == "Err" ? "0" : lblDisplay.Text);
         }
 
         private void SetDisplayValue(string value, bool append)
@@ -238,7 +238,7 @@ namespace Multiplication_Championship
             }
             catch (DivideByZeroException)
             {
-                lblDisplay.Text = "Erro";
+                lblDisplay.Text = "Err";
             }
 
             value1 = value2 = null;
